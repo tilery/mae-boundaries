@@ -1,0 +1,6 @@
+asyncpg==0.16.0
+minicli==0.4.2
+overpy==0.4
+postgis==1.0.4
+requests==2.19.0
+ujson==1.35
