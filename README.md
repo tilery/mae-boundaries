@@ -18,16 +18,16 @@ It will generate two geojson:
 
 - Create a `mae` psql database with postgis enabled
 
-    createdb mae
-    psql mae -c 'CREATE EXTENSION postgis'
+        createdb mae
+        psql mae -c 'CREATE EXTENSION postgis'
 
 - Create python [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/),
   activate it and install python dependencies
 
-    python3 -m venv mae
-    source mae/bin/activate
-    pip install -r requirements.txt
+        python3 -m venv mae
+        source mae/bin/activate
+        pip install -r requirements.txt
 
 - run the script:
 
-    python make.py process
+        python make.py process
