@@ -20,7 +20,7 @@ BG,България,Bulgarie,,Bulgaria,بلغاريا,3,3-PMP,42.6073975,25.4856
 BH,البحرين,Bahreïn,,Bahrain,البحرين,3,3-PMP,26.1551249,50.5344606,
 BI,Burundi,Burundi,,Burundi,بوروندي,3,3-PMP,-3.3634357,29.8870575,
 BJ,Bénin,Bénin,,Benin,بنن,3,3-PMP,9.5293472,2.2584408,
-BM,Bermuda,Bermudes,,Bermuda,جزر برمودا,99,99-Other,32.3191672,-64.7671032,RU
+BM,Bermuda,Bermudes,,Bermuda,جزر برمودا,99,99-Other,32.3191672,-64.7671032,UK
 BN,Brunei Darussalam,Brunei,,Brunei,بروناي,4,4-PPD,4.4137155,114.5653908,
 BO,Bolivia,Bolivie,,Bolivia,بوليفيا,3,3-PMP,-17.0568696,-64.9912286,
 BR,Brasil,Brésil,,Brazil,البرازيل,2,2-PME,-10.3333333,-53.2,
@@ -59,7 +59,7 @@ ES,España,Espagne,,Spain,إسبانيا,1,1-PME/FE,40.0028028,-4.003104,
 ET,ኢትዮጵያ / Ethiopia,Éthiopie,,Ethiopia,إثيوبيا,2,2-PME,10.2116702,38.6521203,
 FI,Suomi,Finlande,,Finland,فنلندا,3,3-PMP,63.2467777,25.9209164,
 FJ,Fiji,Fidji,,Fiji,فيجي,4,4-PPD,-18.1239696,179.0122737,
-FK,Falkland Islands,Îles Falkland,,Falkland Islands,جزر الفولكلاند,99,99-Other,-51.9579887,-59.569457,RU
+FK,Falkland Islands,Îles Falkland,,Falkland Islands,جزر الفولكلاند,99,99-Other,-51.9579887,-59.569457,UK
 FM,Micronesia,Micronésie,,Micronesia,مايكرونيزيا,99,99-Other,5.559,150.2299283,
 FO,Føroyar,Îles Féroé,,Faroe Islands,جزر فارو,99,99-Other,61.8678577,-6.9698548,DK
 FR,France,France,,France,فرنسا,1,1-HC,46.603354,1.8883335,
@@ -67,15 +67,15 @@ GA,Gabon,Gabon,,Gabon,غابون,3,3-PMP,-0.8999695,11.6899699,
 GB,United Kingdom,Royaume-Uni,,United Kingdom,المملكة المتحدة,1,1-PME/FE,54.7023545,-3.2765753,
 GD,Grenada,Grenade,,Grenada,غرينادا,99,99-Other,12.1913266,-61.5899005,
 GE,საქართველო,Géorgie,,Georgia,جورجيا,3,3-PMP,41.6809707,44.0287382,
-GG,Guernsey,Guernesey,,Guernsey,غيرنزي,99,99-Other,49.58122,-2.5356414,RU
+GG,Guernsey,Guernesey,,Guernsey,غيرنزي,99,99-Other,49.58122,-2.5356414,UK
 GH,Ghana,Ghana,,Ghana,غانا,5,3-PMP,8.0300284,-1.0800271,
-GI,Gibraltar,Gibraltar,,Gibraltar,جبل طارق,99,99-Other,36.1068963,-5.3386582,RU
+GI,Gibraltar,Gibraltar,,Gibraltar,جبل طارق,99,99-Other,36.1068963,-5.3386582,UK
 GL,Kalaallit Nunaat,Groenland,,Greenland,جرينلاند,99,99-Other,71.6952795,-42.0769588,DK
 GM,Gambia,Gambie,,Gambia,غامبيا,99,99-Other,13.4431569,-15.4133017,
 GN,Guinée,Guinée,,Guinea,غينيا,3,3-PMP,10.7226226,-10.7083587,
 GQ,Guinea Ecuatorial,Guinée équatoriale,,Equatorial Guinea,غينيا الاستوائية,3,3-PMP,1.613172,10.5170357,
 GR,Ελλάδα,Grèce,,Greece,اليونان,3,3-PMP,38.9953683,21.9877132,
-GS,South Georgia and South Sandwich Islands,Géorgie du Sud-et-les Îles Sandwich du Sud,,South Georgia and the South Sandwich Islands,جورجيا الجنوبية وجزر ساندويتش الجنوبية,99,99-Other,-56.5685843,-33.9908678,RU
+GS,South Georgia and South Sandwich Islands,Géorgie du Sud-et-les Îles Sandwich du Sud,,South Georgia and the South Sandwich Islands,جورجيا الجنوبية وجزر ساندويتش الجنوبية,99,99-Other,-56.5685843,-33.9908678,UK
 GT,Guatemala,Guatémala,,Guatemala,غواتيمالا,3,3-PMP,15.6356088,-89.8988087,
 GW,Guiné-Bissau,Guinée-Bissau,,Guinea-Bissau,غينيا-بيساو,4,4-PPD,12.100035,-14.9000214,
 GY,Guyana,Guyana,,Guyana,غويانا,6,6-Résidence,5.385,-58.7054,
@@ -86,14 +86,14 @@ HU,Magyarország,Hongrie,,Hungary,المجر,3,3-PMP,47.1817585,19.5060937,
 ID,Indonesia,Indonésie,,Indonesia,إندونيسيا,2,2-PME,-4.7993356,114.5632032,
 IE,Ireland,Irlande,,Ireland,أيرلندا,3,3-PMP,52.865196,-7.9794599,
 IL,ישראל,Israël,,Israel,فلسطين,2,2-PME,30.8760272,35.0015196,
-IM,Isle of Man,Île de Man,,Isle of Man,جزيرة مان,99,99-Other,54.1992144,-4.5680673,RU
+IM,Isle of Man,Île de Man,,Isle of Man,جزيرة مان,99,99-Other,54.1992144,-4.5680673,UK
 IN,India,Inde,,India,الهند,2,2-PME,22.3511148,78.6677428,
-IO,British Indian Ocean Territory,Territoire britannique de l'Océan Indien,,British Indian Ocean Territory,إقليم المحيط الهندي البريطاني,99,99-Other,-6.3412369,71.8692598,RU
+IO,British Indian Ocean Territory,Territoire britannique de l'Océan Indien,,British Indian Ocean Territory,إقليم المحيط الهندي البريطاني,99,99-Other,-6.3412369,71.8692598,UK
 IQ,العراق,Irak,,Iraq,العراق,3,3-PMP,33.0955793,44.1749775,
 IR,ایران,Iran,,Iran,إيران,3,3-PMP,32.9407495,52.9471344,
 IS,Ísland,Islande,,Iceland,آيسلندا,3,3-PMP,64.9841821,-18.1059013,
 IT,Italia,Italie,,Italy,إيطاليا,1,1-PME/FE,42.6384261,12.674297,
-JE,Jersey,Jersey,,Jersey,جيرزي,99,99-Other,49.1663334,-2.19625,RU
+JE,Jersey,Jersey,,Jersey,جيرزي,99,99-Other,49.1663334,-2.19625,UK
 JM,Jamaica,Jamaïque,,Jamaica,جامايكا,4,4-PPD,18.1850507,-77.3947693,
 JO,الزرقاء,Jordanie,,Jordan,الأردن,3,3-PMP,31.1667049,36.941628,
 JP,日本,Japon,,Japan,اليابان,2,2-PME,36.5748441,139.2394179,
@@ -106,7 +106,7 @@ KN,Saint Kitts and Nevis,Saint-Christophe-et-Niévès,,Saint Kitts and Nevis,س�
 KP,조선민주주의인민공화국,Corée du Nord,,North Korea,كوريا الشمالية,5,5-Bureau,40.3736611,127.0870417,
 KR,대한민국,Corée du Sud,,South Korea,كوريا الجنوبية,2,2-PME,36.5581914,127.9408564,
 KW,الكويت,Koweït,,Kuwait,الكويت,3,3-PMP,29.2733964,47.4979476,
-KY,Cayman Islands,Îles Caïmans,,Cayman Islands,جزر الكايمان,99,99-Other,19.5097189,-80.5712351,RU
+KY,Cayman Islands,Îles Caïmans,,Cayman Islands,جزر الكايمان,99,99-Other,19.5097189,-80.5712351,UK
 KZ,Казахстан,Kazakhstan,,Kazakhstan,كازاخستان,3,3-PMP,47.2286086,65.2093197,
 LA,ປະເທດລາວ,Laos,,Laos,لاوس,3,3-PMP,20.0171109,103.378253,
 LB,لبنان,Liban,,Lebanon,الجمهورية اللبنانية,2,2-PME,33.8750629,35.843409,
@@ -130,7 +130,7 @@ ML,Mali,Mali,,Mali,مالي,3,3-PMP,16.3700359,-2.2900239,
 MM,မြန်မာ,Birmanie,,Myanmar,ميانمار,3,3-PMP,17.1750495,95.9999652,
 MN,Монгол Улс,Mongolie,,Mongolia,منغوليا,3,3-PMP,46.8250388,103.8499736,
 MR,موريتانيا,Mauritanie,,Mauritania,موريتانيا,3,3-PMP,20.2540382,-9.2399263,
-MS,Montserrat,Montserrat,,Montserrat,مونتسرات,99,99-Other,16.7451489,-62.1930244,RU
+MS,Montserrat,Montserrat,,Montserrat,مونتسرات,99,99-Other,16.7451489,-62.1930244,UK
 MT,Malta,Malte,,Malta,مالطا,3,3-PMP,35.8885993,14.4476911,
 MU,Mauritius,Maurice,,Mauritius,موريشيوس,3,3-PMP,-20.2759451,57.5703566,
 MV,Maldivoj,Maldives,,Maldives,ملديف,6,6-Résidence,4.7064352,73.3287853,
@@ -155,7 +155,7 @@ PG,Papua New Guinea,Papouasie-Nouvelle-Guinée,,Papua New Guinea,بابوا ني
 PH,Philippines,Philippines,,Philippines,الفلبين,3,3-PMP,12.7503486,122.7312101,
 PK,‪‫پاکستان‬,Pakistan,,Pakistan,باكستان,2,2-PME,30.3308401,71.247499,
 PL,Polska,Pologne,,Poland,بولندا,2,2-PME,52.0977181,19.0258159,
-PN,Pitcairn Islands,Îles Pitcairn,,Pitcairn Islands,جزر بيتكيرن,99,99-Other,-24.4981252,-127.7612601,RU
+PN,Pitcairn Islands,Îles Pitcairn,,Pitcairn Islands,جزر بيتكيرن,99,99-Other,-24.4981252,-127.7612601,UK
 PS,الأراضي الفلسطينية,Territoires Palestiniens,,Palestinian Territories,الأراضي الفلسطينية,99,99-Other,31.8861384,34.8212339,
 PT,Portugal,Portugal,,Portugal,البرتغال,3,3-PMP,40.033265,-7.8896263,
 PW,Belau,Palaos,,Palau,بالاو,99,99-Other,5.485,132.9200098,
@@ -171,7 +171,7 @@ SC,Seychelles,Seychelles,,Seychelles,سيشيل,4,4-PPD,-4.6574977,55.4540146,
 SD,السودان,Soudan,,Sudan,السودان,3,3-PMP,14.5844444,29.4917691,
 SE,Sverige,Suède,,Sweden,السويد,3,3-PMP,59.6749712,14.5208584,
 SG,Singapore,Singapour,,Singapore,سنغافورة,3,3-PMP,1.357107,103.8194992,
-SH,"Saint Helena, Ascension and Tristan da Cunha","Sainte-Hélène, Ascension et Tristan da Cunha",,"Saint Helena, Ascension and Tristan da Cunha",سانت هيلينا، أسينسيون وتريستان دا كونها,99,99-Other,-24.13,-10.0230549,RU
+SH,"Saint Helena, Ascension and Tristan da Cunha","Sainte-Hélène, Ascension et Tristan da Cunha",,"Saint Helena, Ascension and Tristan da Cunha",سانت هيلينا، أسينسيون وتريستان دا كونها,99,99-Other,-24.13,-10.0230549,UK
 SI,Slovenija,Slovénie,,Slovenia,سلوفينيا,3,3-PMP,45.8133113,14.4808369,
 SK,Slovensko,Slovaquie,,Slovakia,جمهورية سلوفاكيا,3,3-PMP,48.7411522,19.4528646,
 SL,Sierra Leone,Sierra Leone,,Sierra Leone,سيراليون,6,6-Résidence,8.6400349,-11.8400269,
@@ -207,7 +207,7 @@ UZ,O’zbekiston,Ouzbékistan,,Uzbekistan,أوزبكستان,3,3-PMP,41.32373,63
 VA,Vatican,Saint-Siège,,Vatican City,الفاتيكان,4,3-PMP,41.9038,12.4559,
 VC,Saint Vincent and the Grenadines,Saint-Vincent-et-les-Grenadines,,Saint Vincent and the Grenadines,سانت فنسنت وجزر غرينادين,99,99-Other,13.0498274,-61.2875808,
 VE,Venezuela,Venezuela,,Venezuela,فنزويلا,3,3-PMP,8.0018709,-66.1109318,
-VG,British Virgin Islands,Îles Vierges britanniques,,British Virgin Islands,الجزر العذراء البريطانية,99,99-Other,18.5279556,-64.5078453,RU
+VG,British Virgin Islands,Îles Vierges britanniques,,British Virgin Islands,الجزر العذراء البريطانية,99,99-Other,18.5279556,-64.5078453,UK
 VN,Việt Nam,Vietnam,,Vietnam,فييت نام,3,3-PMP,13.2904027,108.4265113,
 VU,Vanuatu,Vanuatu,,Vanuatu,فانواتو,3,3-PMP,-16.5255069,168.1069154,
 WS,Sāmoa,Samoa,,Samoa,ساموا,99,99-Other,-13.7576404,-172.1010547,
