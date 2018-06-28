@@ -9,8 +9,7 @@ from minicli import cli, run
 from postgis import LineString, MultiLineString
 from postgis.asyncpg import register
 
-OVERPASS = 'http://overpass-api.de/api/interpreter'
-
+OVERPASS = 'https://overpass-api.de/api/interpreter'
 
 async def get_relation(conn, **tags):
     if 'iso' in tags:
