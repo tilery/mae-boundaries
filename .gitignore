@@ -1,3 +1,10 @@
+# Python virtualenv if we follow the readme
+mae/
+
+# Datas downloaded from overpass-turbo and generated exports
 tmp/
+exports/
+
+# Generic files from IDE or execution
 __pycache__
-*.json
+.pydevproject
