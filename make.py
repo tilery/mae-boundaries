@@ -127,13 +127,16 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
     add_disputed(halaib_triangle, props)
     with (Path(__file__).parent / 'country.csv').open() as f:
         countries = list(csv.DictReader(f))
+
+    print('\nDownload and import countries to database\n')
+
     for country in countries:
         iso = country['iso']
         polygon, properties = await load_country(conn, iso=iso)
         properties.update(country)
         if properties['name:en'] == 'Sahrawi Arab Democratic Republic':
             continue
-        print(f'''"{properties['name']}",  # {properties['name:en']}''')
+        print(f'''{iso} : "{properties['name']}" ({properties['name:en']})''')
         if iso == 'IL':
             polygon = await remove_area(conn, polygon, golan)
             west_bank, _ = await get_relation(conn, place="region",
@@ -181,8 +184,10 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
     })
     await conn.close()
     with itl_path.open('w') as f:
+        print(f'''\nExport of {itl_path}\n''')
         json.dump({'type': 'FeatureCollection', 'features': boundaries}, f)
     with disputed_path.open('w') as f:
+        print(f'''Export of {disputed_path}\n''')
         json.dump({'type': 'FeatureCollection', 'features': disputed}, f)
 
 
