@@ -18,7 +18,8 @@ async def get_relation(conn, **tags):
     tags = "".join(f'["{k}"="{v}"]' for k, v in tags.items())
     path = Path('tmp/boundary')
     path.mkdir(parents=True, exist_ok=True)
-    path = path / tags.replace('/', '_')
+    file = tags.replace('/', '_').replace('][', '_').replace('"','').replace(':','_').replace('[', '').replace(']', '')+'.json'
+    path = path / file
     if not path.exists():
         params = {'data': f'[out:json];relation{tags};(._;>;);out body;'}
         resp = requests.get(OVERPASS, params=params)
