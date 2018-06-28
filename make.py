@@ -100,6 +100,7 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
                   disputed_path: Path=Path('exports/disputed.json'),
                   database='mae'):
     itl_path.parent.mkdir(parents=True, exist_ok=True)
+    disputed_path.parent.mkdir(parents=True, exist_ok=True)
     conn = await asyncpg.connect(database=database)
     await register(conn)
     boundaries = []
