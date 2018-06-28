@@ -9,8 +9,7 @@ from minicli import cli, run
 from postgis import LineString, MultiLineString
 from postgis.asyncpg import register
 
-OVERPASS = 'http://overpass-api.de/api/interpreter'
-
+OVERPASS = 'https://overpass-api.de/api/interpreter'
 
 async def get_relation(conn, **tags):
     if 'iso' in tags:
@@ -18,7 +17,8 @@ async def get_relation(conn, **tags):
     tags = "".join(f'["{k}"="{v}"]' for k, v in tags.items())
     path = Path('tmp/boundary')
     path.mkdir(parents=True, exist_ok=True)
-    path = path / tags.replace('/', '_')
+    file_ = tags.replace('/', '_').replace('][', '_').replace('"','').replace(':','_').replace('[', '').replace(']', '')+'.json'
+    path = path / file_
     if not path.exists():
         params = {'data': f'[out:json];relation{tags};(._;>;);out body;'}
         resp = requests.get(OVERPASS, params=params)
@@ -96,9 +96,11 @@ async def load_country(conn, **tags):
 
 
 @cli
-async def process(itl_path: Path=Path('boundary.json'),
-                  disputed_path: Path=Path('disputed.json'),
+async def process(itl_path: Path=Path('exports/boundary.json'),
+                  disputed_path: Path=Path('exports/disputed.json'),
                   database='mae'):
+    itl_path.parent.mkdir(parents=True, exist_ok=True)
+    disputed_path.parent.mkdir(parents=True, exist_ok=True)
     conn = await asyncpg.connect(database=database)
     await register(conn)
     boundaries = []
@@ -124,13 +126,16 @@ async def process(itl_path: Path=Path('boundary.json'),
     add_disputed(halaib_triangle, props)
     with (Path(__file__).parent / 'country.csv').open() as f:
         countries = list(csv.DictReader(f))
+
+    print('\nDownload and import countries to database\n')
+
     for country in countries:
         iso = country['iso']
         polygon, properties = await load_country(conn, iso=iso)
         properties.update(country)
         if properties['name:en'] == 'Sahrawi Arab Democratic Republic':
             continue
-        print(f'''"{properties['name']}",  # {properties['name:en']}''')
+        print(f'''{iso} : "{properties['name']}" ({properties['name:en']})''')
         if iso == 'IL':
             polygon = await remove_area(conn, polygon, golan)
             west_bank, _ = await get_relation(conn, place="region",
@@ -178,8 +183,10 @@ async def process(itl_path: Path=Path('boundary.json'),
     })
     await conn.close()
     with itl_path.open('w') as f:
+        print(f'''\nExport of {itl_path}\n''')
         json.dump({'type': 'FeatureCollection', 'features': boundaries}, f)
     with disputed_path.open('w') as f:
+        print(f'''Export of {disputed_path}\n''')
         json.dump({'type': 'FeatureCollection', 'features': disputed}, f)
 
 
