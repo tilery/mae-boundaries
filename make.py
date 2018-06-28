@@ -97,9 +97,11 @@ async def load_country(conn, **tags):
 
 
 @cli
-async def process(itl_path: Path=Path('boundary.json'),
-                  disputed_path: Path=Path('disputed.json'),
+async def process(itl_path: Path=Path('exports/boundary.json'),
+                  disputed_path: Path=Path('exports/disputed.json'),
                   database='mae'):
+    exports = Path('exports')
+    exports.mkdir(parents=True, exist_ok=True)
     conn = await asyncpg.connect(database=database)
     await register(conn)
     boundaries = []
