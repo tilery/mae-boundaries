@@ -189,10 +189,10 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
     await conn.close()
     with itl_path.open('w') as f:
         print(f'''\nExport of {itl_path}\n''')
-        json.dump({'type': 'FeatureCollection', 'features': boundaries}, f)
+        json.dump({'type': 'FeatureCollection', 'features': boundaries}, f, indent=1)
     with disputed_path.open('w') as f:
         print(f'''Export of {disputed_path}\n''')
-        json.dump({'type': 'FeatureCollection', 'features': disputed}, f)
+        json.dump({'type': 'FeatureCollection', 'features': disputed}, f, indent=1)
 
 
 if __name__ == '__main__':
