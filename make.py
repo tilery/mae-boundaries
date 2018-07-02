@@ -49,7 +49,7 @@ async def get_relation(conn, **tags):
             coords.append((float(node.lon), float(node.lat)))
         collection.append(LineString(coords))
     shape = await make_polygon(conn, MultiLineString(collection))
-    return shape, relation.tags
+    return shape, {}
 
 
 async def make_polygon(conn, geom):
