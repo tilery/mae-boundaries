@@ -21,7 +21,11 @@ async def get_relation(conn, **tags):
     path = path / file_
     if not path.exists():
         params = {'data': f'[out:json];relation{tags};(._;>;);out body;'}
-        resp = requests.get(OVERPASS, params=params)
+        try:
+            resp = requests.get(OVERPASS, params=params)
+            resp.raise_for_status()
+        except requests.exceptions.HTTPError as error:
+            raise ValueError(f'The request to overpass API failed: {error.response.status_code}')
         data = resp.content
         with path.open('wb') as f:
             f.write(data)
