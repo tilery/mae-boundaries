@@ -140,9 +140,9 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
 
     for country in countries:
         iso = country['iso']
-        admin_level = int(country['admin_level']);
+        admin_level = int(country['admin_level'] or 0)
         if 0 < admin_level < 4:
-            polygon, properties = await load_country(conn,admin_level=int(country['admin_level']), iso=iso)
+            polygon, properties = await load_country(conn,admin_level=admin_level, iso=iso)
             properties.update(country)
             if properties['name:en'] == 'Sahrawi Arab Democratic Republic':
                 continue
