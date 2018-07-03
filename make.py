@@ -1,6 +1,7 @@
 import csv
 from pathlib import Path
 
+import sys
 import asyncpg
 import overpy
 import requests
@@ -24,8 +25,12 @@ async def get_relation(conn, **tags):
         try:
             resp = requests.get(OVERPASS, params=params)
             resp.raise_for_status()
-        except requests.exceptions.HTTPError as error:
-            raise ValueError(f'The request to overpass API failed: {error.response.status_code}')
+        except requests.exceptions.ConnectionError as err:
+            print(f'\nERROR: Network problem retrieving data')
+            sys.exit(1)
+        except requests.exceptions.HTTPError as err:
+            print('\nERROR: '+err)
+            sys.exit(1)
         data = resp.content
         with path.open('wb') as f:
             f.write(data)
@@ -135,7 +140,8 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
 
     for country in countries:
         iso = country['iso']
-        if country['admin_level'] != '' and int(country['admin_level']) > 0  and int(country['admin_level']) < 4:
+        admin_level = int(country['admin_level']);
+        if 0 < admin_level < 4:
             polygon, properties = await load_country(conn,admin_level=int(country['admin_level']), iso=iso)
             properties.update(country)
             if properties['name:en'] == 'Sahrawi Arab Democratic Republic':
