@@ -1,6 +1,7 @@
 import csv
 from pathlib import Path
 
+import sys
 import asyncpg
 import overpy
 import requests
@@ -21,7 +22,15 @@ async def get_relation(conn, **tags):
     path = path / file_
     if not path.exists():
         params = {'data': f'[out:json];relation{tags};(._;>;);out body;'}
-        resp = requests.get(OVERPASS, params=params)
+        try:
+            resp = requests.get(OVERPASS, params=params)
+            resp.raise_for_status()
+        except requests.exceptions.ConnectionError as err:
+            print(f'\nError: Network problem retrieving data')
+            sys.exit(1)
+        except requests.exceptions.HTTPError as err:
+            print(f'\nHTTPError: {err}')
+            sys.exit(1)
         data = resp.content
         with path.open('wb') as f:
             f.write(data)
@@ -45,7 +54,7 @@ async def get_relation(conn, **tags):
             coords.append((float(node.lon), float(node.lat)))
         collection.append(LineString(coords))
     shape = await make_polygon(conn, MultiLineString(collection))
-    return shape, relation.tags
+    return shape
 
 
 async def make_polygon(conn, geom):
@@ -55,29 +64,29 @@ async def make_polygon(conn, geom):
 
 
 async def compute_golan(conn):
-    golan, props = await get_relation(conn, boundary="administrative",
+    golan = await get_relation(conn, boundary="administrative",
                                       admin_level="8", name="מועצה אזורית גולן")
-    majdal, _ = await get_relation(conn, boundary="administrative",
+    majdal = await get_relation(conn, boundary="administrative",
                                    admin_level="8", name="مجدل شمس")
     return await conn.fetchval(
         'SELECT ST_MakePolygon(ST_ExteriorRing(ST_Union($1::geometry, '
-        '$2::geometry)))', golan, majdal), props
+        '$2::geometry)))', golan, majdal)
 
 
 async def compute_doklam(conn):
     # https://en.wikipedia.org/wiki/en:Doklam?uselang=fr
-    shape, props = await get_relation(conn, boundary="administrative",
+    shape = await get_relation(conn, boundary="administrative",
                                       admin_level="3", name="Doklam 洞郎地区")
-    other, _ = await get_relation(conn, boundary="administrative",
+    other = await get_relation(conn, boundary="administrative",
                                   admin_level="3", name="鲁林地区")
     shape = await add_area(conn, shape, other)
-    other, _ = await get_relation(conn, boundary="administrative",
+    other = await get_relation(conn, boundary="administrative",
                                   admin_level="3", name="查马普地区")
     shape = await add_area(conn, shape, other)
-    other, _ = await get_relation(conn, boundary="administrative",
+    other = await get_relation(conn, boundary="administrative",
                                   admin_level="3", name="基伍地区")
     shape = await add_area(conn, shape, other)
-    return shape, props
+    return shape
 
 
 async def remove_area(conn, shape, other):
@@ -90,8 +99,8 @@ async def add_area(conn, shape, other):
         'SELECT ST_Union($1::geometry, $2::geometry)', shape, other)
 
 
-async def load_country(conn, **tags):
-    return await get_relation(conn, boundary='administrative', admin_level=2,
+async def load_country(conn, admin_level=2, **tags):
+    return await get_relation(conn, boundary='administrative', admin_level=admin_level,
                               **tags)
 
 
@@ -106,24 +115,23 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
     boundaries = []
     disputed = []
 
-    def add_disputed(polygon, properties):
+    def add_disputed(polygon):
         disputed.append({
             'type': 'Feature',
-            'geometry': polygon.geojson,
-            'properties': properties
+            'geometry': polygon.geojson
         })
 
     # Used more than once.
-    golan, props = await compute_golan(conn)
-    add_disputed(golan, props)
-    doklam, props = await compute_doklam(conn)
-    add_disputed(doklam, props)
-    bir_tawil, props = await get_relation(conn, type='boundary',
+    golan = await compute_golan(conn)
+    add_disputed(golan)
+    doklam = await compute_doklam(conn)
+    add_disputed(doklam)
+    bir_tawil = await get_relation(conn, type='boundary',
                                           name='بيرطويل (Bir Tawil)')
-    add_disputed(bir_tawil, props)
-    halaib_triangle, props = await get_relation(conn, type='boundary',
+    add_disputed(bir_tawil)
+    halaib_triangle = await get_relation(conn, type='boundary',
                                                 name='مثلث حلايب‎')
-    add_disputed(halaib_triangle, props)
+    add_disputed(halaib_triangle)
     with (Path(__file__).parent / 'country.csv').open() as f:
         countries = list(csv.DictReader(f))
 
@@ -131,49 +139,51 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
 
     for country in countries:
         iso = country['iso']
-        polygon, properties = await load_country(conn, iso=iso)
-        properties.update(country)
-        if properties['name:en'] == 'Sahrawi Arab Democratic Republic':
-            continue
-        print(f'''{iso} : "{properties['name']}" ({properties['name:en']})''')
-        if iso == 'IL':
-            polygon = await remove_area(conn, polygon, golan)
-            west_bank, _ = await get_relation(conn, place="region",
-                                              name="الضفة الغربية")
-            polygon = await remove_area(conn, polygon, west_bank)
-        if iso == 'SY':
-            polygon = await add_area(conn, polygon, golan)
-        if iso == 'SS':
-            sudan, _ = await load_country(conn, iso='SD')  # Sudan
-            polygon = await remove_area(conn, polygon, sudan)
-        if properties['name:en'] == 'Sudan':
-            polygon = await remove_area(conn, polygon, bir_tawil)
-        if iso == 'EG':
-            polygon = await add_area(conn, polygon, bir_tawil)
-        if iso == 'NP':
-            claim, props = await get_relation(conn, type="boundary",
+        admin_level = int(country['admin_level'] or 0)
+        if 0 < admin_level < 4:
+            polygon = await load_country(conn,admin_level=admin_level, iso=iso)
+            properties = country
+            if properties['name:en'] == 'Sahrawi Arab Democratic Republic':
+                continue
+            print(f'''{iso} : "{properties['name']}" ({properties['name:en']})''')
+            if iso == 'IL':
+                polygon = await remove_area(conn, polygon, golan)
+                west_bank = await get_relation(conn, place="region",
+                                                  name="الضفة الغربية")
+                polygon = await remove_area(conn, polygon, west_bank)
+            if iso == 'SY':
+                polygon = await add_area(conn, polygon, golan)
+            if iso == 'SS':
+                sudan = await load_country(conn, 2,iso='SD')  # Sudan
+                polygon = await remove_area(conn, polygon, sudan)
+            if properties['name:en'] == 'Sudan':
+                polygon = await remove_area(conn, polygon, bir_tawil)
+            if iso == 'EG':
+                polygon = await add_area(conn, polygon, bir_tawil)
+            if iso == 'NP':
+                claim = await get_relation(conn, type="boundary",
+                                                  name="Extent of Nepal Claim")
+                add_disputed(claim)
+                polygon = await add_area(conn, polygon, claim)
+            if iso == 'IN':
+                claim = await get_relation(conn, type="boundary",
                                               name="Extent of Nepal Claim")
-            add_disputed(claim, props)
-            polygon = await add_area(conn, polygon, claim)
-        if iso == 'IN':
-            claim, _ = await get_relation(conn, type="boundary",
-                                          name="Extent of Nepal Claim")
-            polygon = await remove_area(conn, polygon, claim)
-        if iso == 'CN':
-            polygon = await remove_area(conn, polygon, doklam)
-        if iso == 'BH':
-            polygon = await add_area(conn, polygon, doklam)
-        if iso == 'MA':
-            # Western Sahara
-            esh, props = await get_relation(conn, boundary="disputed",
-                                            name="الصحراء الغربية")
-            add_disputed(esh, props)
-            polygon = await add_area(conn, polygon, esh)
-        boundaries.append({
-            'type': 'Feature',
-            'geometry': polygon.geojson,
-            'properties': properties
-        })
+                polygon = await remove_area(conn, polygon, claim)
+            if iso == 'CN':
+                polygon = await remove_area(conn, polygon, doklam)
+            if iso == 'BH':
+                polygon = await add_area(conn, polygon, doklam)
+            if iso == 'MA':
+                # Western Sahara
+                esh = await get_relation(conn, boundary="disputed",
+                                                name="الصحراء الغربية")
+                add_disputed(esh)
+                polygon = await add_area(conn, polygon, esh)
+            boundaries.append({
+                'type': 'Feature',
+                'geometry': polygon.geojson,
+                'properties': properties
+            })
     sba, properties = await load_country(conn,
                                          name='British Sovereign Base Areas')
     boundaries.append({
@@ -184,10 +194,10 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
     await conn.close()
     with itl_path.open('w') as f:
         print(f'''\nExport of {itl_path}\n''')
-        json.dump({'type': 'FeatureCollection', 'features': boundaries}, f)
+        json.dump({'type': 'FeatureCollection', 'features': boundaries}, f, indent=1)
     with disputed_path.open('w') as f:
         print(f'''Export of {disputed_path}\n''')
-        json.dump({'type': 'FeatureCollection', 'features': disputed}, f)
+        json.dump({'type': 'FeatureCollection', 'features': disputed}, f, indent=1)
 
 
 if __name__ == '__main__':

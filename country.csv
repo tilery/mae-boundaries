@@ -1,218 +1,253 @@
-iso,name,name:fr,short_name:fr,name:en,short_name:en,name:ar,prio,type,latitude,longitude,sov
-AD,Andorra,Andorre,,Andorra,,أندورا,4,4-PPD,42.5407167,1.5732033,
-AE,الإمارات العربية المتحدة,Émirats arabes unis,E.A.U,United Arab Emirates,,الإمارات العربية المتحدة,2,2-PME,24.0002488,53.9994829,
-AF,افغانستان,Afghanistan,,Afghanistan,,أفغانستان,3,3-PMP,33.7680065,66.2385139,
-AG,Antigua and Barbuda,Antigua-et-Barbuda,,Antigua and Barbuda,,أنتيغوا وباربودا,99,99-Other,17.343195,-62.0007544,
-AI,Anguilla,Anguilla,,Anguilla,,أنجويلا,99,99-Other,18.4283324,-63.175872,
-AL,Shqipëria,Albanie,,Albania,,ألبانيا,3,3-PMP,41.000028,19.9999619,
-AM,Հայաստան,Arménie,,Armenia,,أرمينيا,3,3-PMP,40.7696272,44.6736646,
-AO,Angola,Angola,,Angola,,أنغولا,3,3-PMP,-11.8775768,17.5691241,
-AR,Argentina,Argentine,,Argentina,,الأرجنتين,2,2-PME,-34.9964963,-64.9672817,
-AT,Österreich,Autriche,,Austria,,النمسا,3,3-PMP,47.2000338,13.199959,
-AU,Australia,Australie,,Australia,,أستراليا,2,2-PME,-24.7761086,134.755,
-AZ,Azərbaycan,Azerbaïdjan,,Azerbaijan,,أذربيجان,3,3-PMP,40.3936294,47.7872508,
-BA,Bosna i Hercegovina,Bosnie-Herzégovine,Bosnie-Herz.,Bosnia and Herzegovina,,البوسنة والهرسك,3,3-PMP,44.3053476,17.5961467,
-BB,Barbados,Barbade,,Barbados,,بربادوس,6,6-Résidence,13.1500331,-59.5250305,
-BD,Bangladesh,Bangladesh,,Bangladesh,,بنغلاديش,3,3-PMP,24.4768783,90.2932426,
-BE,België - Belgique - Belgien,Belgique,,Belgium,,بلجيكا,3,3-PMP,50.6407351,4.66696,
-BF,Burkina Faso,Burkina Faso,,Burkina Faso,,بوركينا فاصو,3,3-PMP,12.0753083,-1.6880314,
-BG,България,Bulgarie,,Bulgaria,,بلغاريا,3,3-PMP,42.6073975,25.4856617,
-BH,البحرين,Bahreïn,,Bahrain,,البحرين,3,3-PMP,26.1551249,50.5344606,
-BI,Burundi,Burundi,,Burundi,,بوروندي,3,3-PMP,-3.3634357,29.8870575,
-BJ,Bénin,Bénin,,Benin,,بنن,3,3-PMP,9.5293472,2.2584408,
-BM,Bermuda,Bermudes,,Bermuda,,جزر برمودا,99,99-Other,32.3191672,-64.7671032,UK
-BN,Brunei Darussalam,Brunei,,Brunei,,بروناي,4,4-PPD,4.4137155,114.5653908,
-BO,Bolivia,Bolivie,,Bolivia,,بوليفيا,3,3-PMP,-17.0568696,-64.9912286,
-BR,Brasil,Brésil,,Brazil,,البرازيل,2,2-PME,-10.3333333,-53.2,
-BS,The Bahamas,Les Bahamas,,The Bahamas,,جزر باهاماس,99,99-Other,24.0897198,-76.5739731,
-BT,འབྲུག་ཡུལ་,Bhoutan,,Bhutan,,بوتان,99,99-Other,27.4745015,90.4358523,
-BW,Botswana,Botswana,,Botswana,,بوتسوانا,4,4-PPD,-23.1681782,24.5928742,
-BY,Беларусь,Biélorussie,,Belarus,,بيلاروس,3,3-PMP,53.4250605,27.6971358,
-BZ,Belize,Belize,,Belize,,بليز,99,99-Other,17.1908648,-88.2680289,
-CA,Cameroun - Cameroon,Cameroun,,Cameroon,,الكاميرون,2,2-PME,4.6125522,13.1535811,
-CD,République démocratique du Congo,République démocratique du Congo,Rép. Dém. Du Congo,Democratic Republic of the Congo,,الكونغو,3,3-PMP,-2.9814344,23.8222636,
-CF,Centrafrique,Centrafrique,,Central African Republic,,جمهورية أفريقيا الوسطى,3,3-PMP,7.0323598,19.9981227,
-CG,République du Congo,Congo,,Republic of the Congo,,جمهورية الكونغو الديمقراطية,3,3-PMP,-0.7264327,15.6419155,
-CH,Schweiz - Suisse - Svizzera - Svizra,Suisse,,Switzerland,,سويسرا,3,3-PMP,46.7985624,8.2319736,
-CI,Côte d'Ivoire,Côte d'Ivoire,,Ivory Coast,,كوت ديفوار,2,2-PME,7.9897371,-5.5679458,
-CK,Kūki 'Āirani,Îles Cook,,Cook Islands,,جزر كوك,99,99-Other,-15.4374746,-161.5972899,NZ
-CL,Chile,Chili,,Chile,,شيلي,3,3-PMP,-31.7613365,-71.3187697,
-CM,កម្ពុជា,Cambodge,,Cambodia,,كمبوديا,3,3-PMP,13.5066394,104.869423,
-CN,中国,Chine,,China,,الصين,2,2-PME,35.000074,104.999927,
-CO,Colombia,Colombie,,Colombia,,كولومبيا,3,3-PMP,2.8894434,-73.783892,
-CR,Costa Rica,Costa Rica,,Costa Rica,,كوستاريكا,3,3-PMP,10.2735633,-84.0739102,
-CU,Cuba,Cuba,,Cuba,,كوبا,3,3-PMP,23.0131338,-80.8328748,
-CV,Canada,Canada,,Canada,,كندا,2,2-PME,61.0666922,-107.9917071,
-CY,Κύπρος,Chypre,,Cyprus,,قبرص,3,3-PMP,34.9823018,33.1451285,
-CZ,Česko,République tchèque,Rép. Tchèque,Czechia,,جمهورية التشيك,3,3-PMP,49.8167003,15.4749544,
-DE,Deutschland,Allemagne,,Germany,,ألمانيا,1,1-PME/FE,51.0834196,10.4234469,
-DJ,Djibouti,Djibouti,,Djibouti,,جيبوتي,3,3-PMP,11.8553,42.2342,
-DK,Danmark,Danemark,,Denmark,,الدانمرك,3,3-PMP,55.670249,10.3333283,
-DM,Dominica,Dominique,,Dominica,,دومينيكا,99,99-Other,15.3973214,-61.359954,
-DO,República Dominicana,République Dominicaine,,Dominican Republic,,الجمهورية الدومينيكية,3,3-PMP,19.0974031,-70.3028026,
-DZ,Algeria,Algérie,,Algeria,,الجزائر,2,2-PME,28.0000272,2.9999825,
-EC,Ecuador,Équateur,,Ecuador,,إكوادور,3,3-PMP,-1.3397668,-79.3666965,
-EE,Eesti,Estonie,,Estonia,,إستونيا,3,3-PMP,58.7523778,25.3319078,
-EG,مصر,Égypte,,Egypt,,مصر,2,2-PME,26.2540493,29.2675469,
-ER,ኤርትራ,Érythrée,,Eritrea,,إريتريا,4,4-PPD,15.9500319,37.9999668,
-ES,España,Espagne,,Spain,,إسبانيا,1,1-PME/FE,40.0028028,-4.003104,
-ET,ኢትዮጵያ / Ethiopia,Éthiopie,,Ethiopia,,إثيوبيا,2,2-PME,10.2116702,38.6521203,
-FI,Suomi,Finlande,,Finland,,فنلندا,3,3-PMP,63.2467777,25.9209164,
-FJ,Fiji,Fidji,,Fiji,,فيجي,4,4-PPD,-18.1239696,179.0122737,
-FK,Falkland Islands,Îles Falkland,,Falkland Islands,,جزر الفولكلاند,99,99-Other,-51.9579887,-59.569457,UK
-FM,Micronesia,Micronésie,,Micronesia,,مايكرونيزيا,99,99-Other,5.559,150.2299283,
-FO,Føroyar,Îles Féroé,,Faroe Islands,,جزر فارو,99,99-Other,61.8678577,-6.9698548,DK
-FR,France,France,,France,,فرنسا,1,1-HC,46.603354,1.8883335,
-GA,Gabon,Gabon,,Gabon,,غابون,3,3-PMP,-0.8999695,11.6899699,
-GB,United Kingdom,Royaume-Uni,,United Kingdom,,المملكة المتحدة,1,1-PME/FE,54.7023545,-3.2765753,
-GD,Grenada,Grenade,,Grenada,,غرينادا,99,99-Other,12.1913266,-61.5899005,
-GE,საქართველო,Géorgie,,Georgia,,جورجيا,3,3-PMP,41.6809707,44.0287382,
-GG,Guernsey,Guernesey,,Guernsey,,غيرنزي,99,99-Other,49.58122,-2.5356414,UK
-GH,Ghana,Ghana,,Ghana,,غانا,5,3-PMP,8.0300284,-1.0800271,
-GI,Gibraltar,Gibraltar,,Gibraltar,,جبل طارق,99,99-Other,36.1068963,-5.3386582,UK
-GL,Kalaallit Nunaat,Groenland,,Greenland,,جرينلاند,99,99-Other,71.6952795,-42.0769588,DK
-GM,Gambia,Gambie,,Gambia,,غامبيا,99,99-Other,13.4431569,-15.4133017,
-GN,Guinée,Guinée,,Guinea,,غينيا,3,3-PMP,10.7226226,-10.7083587,
-GQ,Guinea Ecuatorial,Guinée équatoriale,,Equatorial Guinea,,غينيا الاستوائية,3,3-PMP,1.613172,10.5170357,
-GR,Ελλάδα,Grèce,,Greece,,اليونان,3,3-PMP,38.9953683,21.9877132,
-GS,South Georgia and South Sandwich Islands,Géorgie du Sud-et-les Îles Sandwich du Sud,,South Georgia and the South Sandwich Islands,,جورجيا الجنوبية وجزر ساندويتش الجنوبية,99,99-Other,-56.5685843,-33.9908678,UK
-GT,Guatemala,Guatémala,,Guatemala,,غواتيمالا,3,3-PMP,15.6356088,-89.8988087,
-GW,Guiné-Bissau,Guinée-Bissau,,Guinea-Bissau,,غينيا-بيساو,4,4-PPD,12.100035,-14.9000214,
-GY,Guyana,Guyana,,Guyana,,غويانا,6,6-Résidence,5.385,-58.7054,
-HN,Honduras,Honduras,,Honduras,,هندوراس,4,4-PPD,15.0610686,-84.5978534,
-HR,Hrvatska,Croatie,,Croatia,,كرواتيا,3,3-PMP,45.5643442,17.0118954,
-HT,Haiti,Haïti,,Haiti,,هايتي,3,3-PMP,19.1399952,-72.3570972,
-HU,Magyarország,Hongrie,,Hungary,,المجر,3,3-PMP,47.1817585,19.5060937,
-ID,Indonesia,Indonésie,,Indonesia,,إندونيسيا,2,2-PME,-4.7993356,114.5632032,
-IE,Ireland,Irlande,,Ireland,,أيرلندا,3,3-PMP,52.865196,-7.9794599,
-IL,ישראל,Israël,,Israel,,فلسطين,2,2-PME,30.8760272,35.0015196,
-IM,Isle of Man,Île de Man,,Isle of Man,,جزيرة مان,99,99-Other,54.1992144,-4.5680673,UK
-IN,India,Inde,,India,,الهند,2,2-PME,22.3511148,78.6677428,
-IO,British Indian Ocean Territory,Territoire britannique de l'Océan Indien,,British Indian Ocean Territory,,إقليم المحيط الهندي البريطاني,99,99-Other,-6.3412369,71.8692598,UK
-IQ,العراق,Irak,,Iraq,,العراق,3,3-PMP,33.0955793,44.1749775,
-IR,ایران,Iran,,Iran,,إيران,3,3-PMP,32.9407495,52.9471344,
-IS,Ísland,Islande,,Iceland,,آيسلندا,3,3-PMP,64.9841821,-18.1059013,
-IT,Italia,Italie,,Italy,,إيطاليا,1,1-PME/FE,42.6384261,12.674297,
-JE,Jersey,Jersey,,Jersey,,جيرزي,99,99-Other,49.1663334,-2.19625,UK
-JM,Jamaica,Jamaïque,,Jamaica,,جامايكا,4,4-PPD,18.1850507,-77.3947693,
-JO,الزرقاء,Jordanie,,Jordan,,الأردن,3,3-PMP,31.1667049,36.941628,
-JP,日本,Japon,,Japan,,اليابان,2,2-PME,36.5748441,139.2394179,
-KE,Kenya,Kenya,,Kenya,,كينيا,2,2-PME,1.4419683,38.4313975,
-KG,Кыргызстан,Kirghizstan,,Kyrgyzstan,,قرغيزستان,4,4-PPD,41.5089324,74.724091,
-KH,Cabo Verde,Cabo Verde,,Cabo Verde,,الرأس الأخضر,4,4-PPD,16.0000552,-24.0083947,
-KI,Kiribati,Kiribati,,Kiribati,,كيريباتي,99,99-Other,0.44833,-171.66548,
-KM,Comores,Comores,,Comoros,,جزر القمر,3,3-PMP,-12.2045176,44.2832964,
-KN,Saint Kitts and Nevis,Saint-Christophe-et-Niévès,,Saint Kitts and Nevis,,سانت كيتس ونيفس,99,99-Other,17.2554073,-62.6907404,
-KP,조선민주주의인민공화국,Corée du Nord,,North Korea,,كوريا الشمالية,5,5-Bureau,40.3736611,127.0870417,
-KR,대한민국,Corée du Sud,,South Korea,,كوريا الجنوبية,2,2-PME,36.5581914,127.9408564,
-KW,الكويت,Koweït,,Kuwait,,الكويت,3,3-PMP,29.2733964,47.4979476,
-KY,Cayman Islands,Îles Caïmans,,Cayman Islands,,جزر الكايمان,99,99-Other,19.5097189,-80.5712351,UK
-KZ,Казахстан,Kazakhstan,,Kazakhstan,,كازاخستان,3,3-PMP,47.2286086,65.2093197,
-LA,ປະເທດລາວ,Laos,,Laos,,لاوس,3,3-PMP,20.0171109,103.378253,
-LB,لبنان,Liban,,Lebanon,,الجمهورية اللبنانية,2,2-PME,33.8750629,35.843409,
-LC,Saint Lucia,Sainte-Lucie,Ste-Lucie,Saint Lucia,,سانت لوسيا,3,3-PMP,13.8250489,-60.975036,
-LI,Liechtenstein,Liechtenstein,,Liechtenstein,,ليختنشتين,6,6-Résidence,47.1416307,9.5531527,
-LK,ශ්‍රී ලංකා,Sri Lanka,,Sri Lanka,,سريلانكا,3,3-PMP,7.237148,80.820923,
-LR,Liberia,Liberia,,Liberia,,ليبريا,4,4-PPD,5.7499721,-9.3658524,
-LS,Lesotho,Lesotho,,Lesotho,,ليسوتو,99,99-Other,-29.6239461,28.2335865,
-LT,Lietuva,Lituanie,,Lithuania,,ليتوانيا,3,3-PMP,55.3500003,23.7499997,
-LU,Luxembourg,Luxembourg,,Luxembourg,,لكسمبرغ,4,3-PMP,49.8158683,6.1296751,
-LV,Latvija,Lettonie,,Latvia,,لاتفيا,3,3-PMP,56.8406494,24.7537645,
-LY,ليبيا,Libye,,Libya,,ليبيا,3,3-PMP,26.8234472,18.1236723,
-MA,Maroc ⴰⵎⵔⵔⵓⴽ المغرب,Maroc,,Morocco,,المغرب,1,1-PME/FE,31.1728192,-7.3366043,
-MC,Monaco,Monaco,,Monaco,,موناكو,3,3-PMP,43.734,7.4227,
-MD,Moldova,Moldavie,,Moldova,,جمهورية مولدوفا,4,4-PPD,47.286747,28.5110236,
-ME,Crna Gora / Црна Гора,Monténégro,,Montenegro,,الجبل الأسود,4,4-PPD,42.7728491,19.2408586,
-MG,Madagascar,Madagascar,,Madagascar,,مدغشقر,1,1-PME/FE,-18.9249604,46.4416422,
-MH,M̧ajeļ,Îles Marshall,,Marshall Islands,,جزر مارشال,99,99-Other,9.6235,166.4843173,
-MK,Македонија,Ancienne République Yougoslave de Macédoine,ARYM,Former Yugoslav Republic of Macedonia,FYROM,مقدونيا,3,3-PMP,41.6171214,21.7168387,
-ML,Mali,Mali,,Mali,,مالي,3,3-PMP,16.3700359,-2.2900239,
-MM,မြန်မာ,Birmanie,,Myanmar,,ميانمار,3,3-PMP,17.1750495,95.9999652,
-MN,Монгол Улс,Mongolie,,Mongolia,,منغوليا,3,3-PMP,46.8250388,103.8499736,
-MR,موريتانيا,Mauritanie,,Mauritania,,موريتانيا,3,3-PMP,20.2540382,-9.2399263,
-MS,Montserrat,Montserrat,,Montserrat,,مونتسرات,99,99-Other,16.7451489,-62.1930244,UK
-MT,Malta,Malte,,Malta,,مالطا,3,3-PMP,35.8885993,14.4476911,
-MU,Mauritius,Maurice,,Mauritius,,موريشيوس,3,3-PMP,-20.2759451,57.5703566,
-MV,Maldivoj,Maldives,,Maldives,,ملديف,6,6-Résidence,4.7064352,73.3287853,
-MW,Malawi,Malawi,,Malawi,,مالاوي,4,99-Other,-13.2489239,34.2944674,
-MX,México,Mexique,,Mexico,,المكسيك,2,2-PME,22.5000485,-100.0000375,
-MY,Malaysia,Malaisie,,Malaysia,,ماليزي,3,3-PMP,2.3923759,112.8471939,
-MZ,Mozambique,Mozambique,,Mozambique,,موزمبيق,3,3-PMP,-19.302233,34.9144977,
-NA,Namibia,Namibie,,Namibia,,ناميبيا,4,4-PPD,-23.2335499,17.3231107,
-NE,Niger,Niger,,Niger,,النيجر,3,3-PMP,17.7356214,9.3238432,
-NG,Nigeria,Nigéria,,Nigeria,,نيجيريا,2,2-PME,9.6000359,7.9999721,
-NI,Nicaragua,Nicaragua,,Nicaragua,,نيكاراغوا,4,4-PPD,12.3724928,-84.8700308,
-NL,Nederland,Pays-Bas,,The Netherlands,,هولندا,4,3-PMP,52.5001698,5.7480821,
-NO,Norge,Norvège,,Norway,,النرويج,3,3-PMP,60.5000209,9.0999715,
-NP,Nepal,Népal,,Nepal,,نيبال,4,4-PPD,28.1083929,84.0917139,
-NR,Naoero,Nauru,,Nauru,,ناورو,99,99-Other,-0.528,166.9348582,
-NU,Niuē,Niue,,Niue,,نييوي,99,99-Other,-19.0541612,-169.8621129,NZ
-NZ,New Zealand,Nouvelle-Zélande,,New Zealand,,نيوزيلندا,3,3-PMP,-41.5000831,172.8344077,
-OM,عُمان,Oman,,Oman,,عمان,3,3-PMP,21.0000287,57.0036901,
-PA,Panama,Panama,,Panama,,بنما,3,3-PMP,8.3096067,-81.3066246,
-PE,Perú,Pérou,,Peru,,بيرو,3,3-PMP,-6.8699697,-75.0458515,
-PG,Papua New Guinea,Papouasie-Nouvelle-Guinée,,Papua New Guinea,,بابوا نيوغينيا,4,4-PPD,-5.6816069,144.2489081,
-PH,Philippines,Philippines,,Philippines,,الفلبين,3,3-PMP,12.7503486,122.7312101,
-PK,‪‫پاکستان‬,Pakistan,,Pakistan,,باكستان,2,2-PME,30.3308401,71.247499,
-PL,Polska,Pologne,,Poland,,بولندا,2,2-PME,52.0977181,19.0258159,
-PN,Pitcairn Islands,Îles Pitcairn,,Pitcairn Islands,,جزر بيتكيرن,99,99-Other,-24.4981252,-127.7612601,UK
-PS,الأراضي الفلسطينية,Territoires Palestiniens,,Palestinian Territories,,الأراضي الفلسطينية,99,99-Other,31.8861384,34.8212339,
-PT,Portugal,Portugal,,Portugal,,البرتغال,3,3-PMP,40.033265,-7.8896263,
-PW,Belau,Palaos,,Palau,,بالاو,99,99-Other,5.485,132.9200098,
-PY,Paraguay,Paraguay,,Paraguay,,باراغواي,3,4-PPD,-23.3165935,-58.1693445,
-QA,قطر,Qatar,,Qatar,,قطر,3,3-PMP,25.3336984,51.2295295,
-RO,România,Roumanie,,Romania,,رومانيا,3,3-PMP,45.9852129,24.6859225,
-RS,Србија,Serbie,,Serbia,,صربيا,3,3-PMP,44.1534121,20.55144,
-RU,Россия,Russie,,Russia,,روسيا الاتحادية,2,2-PME,64.6863136,97.7453061,
-RW,Rwanda,Rwanda,,Rwanda,,رواندا,3,3-PMP,-1.9646631,30.0644358,
-SA,السعودية,Arabie Saoudite,,Saudi Arabia,,السعودية,2,2-PME,25.6242618,42.3528328,
-SB,Solomon Islands,Salomon,,Solomon Islands,,جزر سليمان,99,99-Other,-9.0266399,162.8577611,
-SC,Seychelles,Seychelles,,Seychelles,,سيشيل,4,4-PPD,-4.6574977,55.4540146,
-SD,السودان,Soudan,,Sudan,,السودان,3,3-PMP,14.5844444,29.4917691,
-SE,Sverige,Suède,,Sweden,,السويد,3,3-PMP,59.6749712,14.5208584,
-SG,Singapore,Singapour,,Singapore,,سنغافورة,3,3-PMP,1.357107,103.8194992,
-SH,"Saint Helena, Ascension and Tristan da Cunha","Sainte-Hélène, Ascension et Tristan da Cunha",,"Saint Helena, Ascension and Tristan da Cunha",,سانت هيلينا، أسينسيون وتريستان دا كونها,99,99-Other,-24.13,-10.0230549,UK
-SI,Slovenija,Slovénie,,Slovenia,,سلوفينيا,3,3-PMP,45.8133113,14.4808369,
-SK,Slovensko,Slovaquie,,Slovakia,,جمهورية سلوفاكيا,3,3-PMP,48.7411522,19.4528646,
-SL,Sierra Leone,Sierra Leone,,Sierra Leone,,سيراليون,6,6-Résidence,8.6400349,-11.8400269,
-SM,San Marino,Saint-Marin,,San Marino,,سان مارينو,99,99-Other,43.9428966,12.4596955,
-SN,Sénégal,Sénégal,,Senegal,,السنغال,1,1-PME/FE,14.4750607,-14.4529612,
-SO,الصومال,Somalie,,Somalia,,الصومال,4,6-Résidence,8.3676771,49.083416,
-SR,Suriname,Suriname,,Suriname,,سورينام,4,4-PPD,4.1413025,-56.0771187,
-SS,South Sudan,Soudan du Sud,,South Sudan,,جنوب السودان,4,4-PPD,7.8699431,29.6667897,
-ST,São Tomé e Príncipe,Sao Tomé-et-Principe,,Sao Tome and Principe,,ساو تومي وبرينسيبي,99,99-Other,0.8561232,6.9655601,
-SV,El Salvador,Salvador,,El Salvador,,السلفادور,4,4-PPD,13.8000382,-88.9140683,
-SY,سورية,Syrie,,Syria,,سورية,3,3-PMP,34.6401861,39.0494106,
-SZ,Swaziland,Swaziland,,Swaziland,,سوازيلند,6,6-Résidence,-26.5624806,31.3991317,
-TC,Turks and Caicos Islands,Îles Turques-et-Caïques,,Turks and Caicos Islands,,جزر توركس وكايكوس,99,99-Other,21.5592203,-71.7721318,
-TD,Chad تشاد,Tchad,,Chad,,تشاد,3,3-PMP,15.6134137,19.0156172,
-TG,Togo,Togo,,Togo,,توغو,5,3-PMP,8.7800265,1.0199765,
-TH,ประเทศไทย,Thaïlande,,Thailand,,تايلاند,2,2-PME,14.8971921,100.83273,
-TJ,Тоҷикистон,Tadjikistan,,Tajikistan,,طاجيكستان,4,4-PPD,38.6281733,70.8156541,
-TK,Tokelau,Tokelau,,Tokelau,,توكلو,99,99-Other,-8.9885565,-171.8505629,NZ
-TL,Timór Lorosa'e,Timor oriental,,East Timor,,تيمور الشرقية,99,99-Other,-8.8269117,125.7875547,
-TM,Türkmenistan,Turkménistan,,Turkmenistan,,تركمانستان,4,4-PPD,39.3763807,59.3924609,
-TN,تونس,Tunisie,,Tunisia,,تونس,2,2-PME,33.8439408,9.400138,
-TO,Tonga,Tonga,,Tonga,,تونجا,99,99-Other,-19.7345111,-176.4580757,
-TR,Türkiye,Turquie,,Turkey,,تركيا,2,2-PME,38.9597594,34.9249653,
-TT,Trinidad and Tobago,Trinité-et-Tobago,,Trinidad and Tobago,,ترينيداد وتوباغو,4,4-PPD,10.8677845,-60.9821067,
-TV,Tuvalu,Tuvalu,,Tuvalu,,توفالو,99,99-Other,-8.5172,179.1448,
-TW,臺灣,Taïwan,,Taiwan,,تايوان,5,5-Bureau,23.9739374,120.9820179,
-TZ,Tanzania,Tanzanie,,Tanzania,,تنـزاني,3,3-PMP,-6.5247123,35.7878438,
-UA,Україна,Ukraine,,Ukraine,,أوكرانيا,2,2-PME,49.4871968,31.2718321,
-UG,Uganda,Ouganda,,Uganda,,أوغندا,3,3-PMP,1.5333554,32.2166578,
-US,United States of America,États-Unis,,United States of America,,الولايات المتّحدة الأمريكيّة,1,1-PME/FE,39.7837304,-100.4458825,
-UY,Uruguay,Uruguay,,Uruguay,,أوروغواي,3,3-PMP,-32.8755548,-56.0201525,
-UZ,O’zbekiston,Ouzbékistan,,Uzbekistan,,أوزبكستان,3,3-PMP,41.32373,63.9528098,
-VA,Vatican,Saint-Siège,,Vatican City,,الفاتيكان,4,3-PMP,41.9038,12.4559,
-VC,Saint Vincent and the Grenadines,Saint-Vincent-et-les-Grenadines,,Saint Vincent and the Grenadines,,سانت فنسنت وجزر غرينادين,99,99-Other,13.0498274,-61.2875808,
-VE,Venezuela,Venezuela,,Venezuela,,فنزويلا,3,3-PMP,8.0018709,-66.1109318,
-VG,British Virgin Islands,Îles Vierges britanniques,,British Virgin Islands,,الجزر العذراء البريطانية,99,99-Other,18.5279556,-64.5078453,UK
-VN,Việt Nam,Vietnam,,Vietnam,,فييت نام,3,3-PMP,13.2904027,108.4265113,
-VU,Vanuatu,Vanuatu,,Vanuatu,,فانواتو,3,3-PMP,-16.5255069,168.1069154,
-WS,Sāmoa,Samoa,,Samoa,,ساموا,99,99-Other,-13.7576404,-172.1010547,
-XK,Kosova,Kosovo,,Kosovo,,كوسوفو,3,3-PMP,42.5869578,20.9021231,
-YE,اليَمَن,Yémen,,Yemen,,اليمن,3,3-PMP,16.3471243,47.8915271,
-ZA,South Africa,Afrique du Sud,Af. du Sud,South Africa,,جنوب أفريقيا,2,2-PME,-28.8166236,24.991639,
-ZM,Zambia,Zambie,,Zambia,,زامبيا,4,4-PPD,-14.5186239,27.5599164,
-ZW,Zimbabwe,Zimbabwé,,Zimbabwe,,زيمبابوي,3,3-PMP,-18.4554963,29.7468414,
+iso,iso3,admin_level,name,name:fr,short_name:fr,name:en,short_name:en,name:ar,name:es,name:de,name:ru,prio,type,latitude,longitude,mae:region,mae:circi_elec,sov,eu,sc
+AD,AND,2,Andorra,Andorre,,Andorra,,أندورا,Andorra,Andorra,Андорра,4,4-PPD,42.5407167,1.5732033,Europe,5,,0,1
+AE,ARE,2,الإمارات العربية المتحدة,Émirats Arabes Unis,E.A.U,United Arab Emirates,,الإمارات العربية المتحدة,Emiratos Árabes Unidos,Vereinigte Arabische Emirate,Объединённые Арабские Эмир,2,2-PME,24.0002488,53.9994829,Afrique du Nord / Moyen-Orient,10,,0,0
+AF,AFG,2,افغانستان,Afghanistan,,Afghanistan,,أفغانستان,Afganistán,Afghanistan,Афганистан,3,3-PMP,33.7680065,66.2385139,Asie,11,,0,0
+AG,ATG,2,Antigua and Barbuda,Antigua-et-Barbuda,,Antigua and Barbuda,,أنتيغوا وبربودا,Antigua y Barbuda,Antigua und Barbuda,Антигуа и Барбуда,99,99-Other,17.343195,-62.0007544,,2,,0,1
+AI,AIA,2,Anguilla,Anguilla,,Anguilla,,أنغويلا,Anguilla,Anguilla,Ангилья,99,99-Other,18.4283324,-63.175872,,3,UK,0,1
+AL,ALB,2,Shqipëria,Albanie,,Albania,,ألبانيا,Albania,Albania,Албания,3,3-PMP,41.000028,19.9999619,Europe,7,,0,0
+AM,ARM,2,Հայաստան,Arménie,,Armenia,,أرمينيا,Armenia,Armenien,Армения,3,3-PMP,40.7696272,44.6736646,Europe,11,,0,0
+AO,AGO,2,Angola,Angola,,Angola,,أنغولا,Angola,Angola,Ангола,3,3-PMP,-11.8775768,17.5691241,Afrique,10,,0,0
+AQ,ATA,0,Antarctica,Antarctique,,Antarctica,,أنتاركتيكا,Antártida,Antarktika,Антарктида,99,99-Other,-79.40631,0.31399,,,,0,0
+AR,ARG,2,Argentina,Argentine,,Argentina,,الأرجنتين,Argentina,Argentinien,Аргентина,2,2-PME,-34.9964963,-64.9672817,Amériques,2,,0,0
+AS,ASM,4,American Samoa,Samoa Américaines,,American Samoa,,ساموا-الأمريكي,Samoa Americana,Amerikanisch-Samoa,Американское Самоа,99,99-Other,-14.2754786,-170.7048298,,1,US,0,0
+AT,AUT,2,Österreich,Autriche,,Austria,,النمسا,Austria,Österreich,Австрия,3,3-PMP,47.2000338,13.199959,Autriche,7,,1,0
+AU,AUS,2,Australia,Australie,,Australia,,أستراليا,Australia,Australien,Австралия,2,2-PME,-24.7761086,134.755,Océanie,11,,0,0
+AW,ABW,3,Aruba,Aruba,,Aruba,,أروبه,Aruba,Aruba,Аруба,99,99-Other,12.5013629,-69.9618475,Amériques,4,NL,0,1
+AX,ALA,3,Åland Islands,Åland,,Åland Islands,,جزر أولاند,Åland,Åland,Аландские острова,99,99-Other,60.2166218,19.9438638,Europe,3,FI,0,1
+AZ,AZE,2,Azərbaycan,Azerbaïdjan,,Azerbaijan,,أذربيجان,Azerbaiyán,Azerbaijan,Азербайджан,3,3-PMP,40.3936294,47.7872508,Europe,11,,0,0
+BA,BIH,2,Bosna i Hercegovina,Bosnie-Herzégovine,Bosnie-Herz.,Bosnia and Herzegovina,,البوسنة و الهرسك,Bosnia-Herzegovina,Bosnien und Herzegowina,Босния и Герцеговина,3,3-PMP,44.3053476,17.5961467,Europe,7,,0,0
+BB,BRB,2,Barbados,Barbade,,Barbados,,بربادوس,Barbados,Barbados,Барбадос,6,6-Résidence,13.1500331,-59.5250305,Amériques,2,,0,0
+BD,BGD,2,Bangladesh,Bangladesh,,Bangladesh,,بنغلاديش,Bangladesh,Bangladesch,Бангладеш,3,3-PMP,24.4768783,90.2932426,Asie,11,,0,0
+BE,BEL,2,België - Belgique - Belgien,Belgique,,Belgium,,بلجيكا,Bélgica,Belgien,Бельгия,3,3-PMP,50.6407351,4.66696,Europe,4,,1,0
+BF,BFA,2,Burkina Faso,Burkina Faso,,Burkina Faso,,بوركينا فاسو,Burkina Faso,Burkina Faso,Буркина-Фасо,3,3-PMP,12.0753083,-1.6880314,Afrique,9,,0,0
+BG,BGR,2,България,Bulgarie,,Bulgaria,,بلغاريا,Bulgaria,Bulgarien,Болгария,3,3-PMP,42.6073975,25.4856617,Europe,7,,1,0
+BH,BHR,2,البحرين,Bahreïn,,Bahrain,,البحرين,Baréin,Bahrain,Бахрейн,3,3-PMP,26.1551249,50.5344606,Afrique du Nord / Moyen-Orient,10,,0,0
+BI,BDI,2,Burundi,Burundi,,Burundi,,بوروندي,Burundi,Burundi,Бурунди,3,3-PMP,-3.3634357,29.8870575,Afrique,10,,0,0
+BJ,BEN,2,Bénin,Bénin,,Benin,,بنين,Benín,Benin,Бенин,3,3-PMP,9.5293472,2.2584408,Afrique,10,,0,0
+BM,BMU,2,Bermuda,Bermudes,,Bermuda,,جزر برمودا,Bermudas,Bermuda,Бермуды,99,99-Other,32.3191672,-64.7671032,Amériques,3,UK,0,0
+BN,BRN,2,Brunei Darussalam,Brunei,,Brunei,,بروني,Brunéi,Brunei,Бруней,4,4-PPD,4.4137155,114.5653908,Asie,11,,0,0
+BO,BOL,2,Bolivia,Bolivie,,Bolivia,,بوليفيا,Bolivia,Bolivien,Боливия,3,3-PMP,-17.0568696,-64.9912286,Amériques,2,,0,0
+BQ,BES,4,Caribbean Netherlands,Pays-Bas caribéens,,Caribbean Netherlands,,الجزر الكاريبية الهولندية,Caribe Neerlandés,Karibische Niederlande,"Бонайре, Синт-Эстатиус и Саба",99,99-Other,,,Amériques,4,NL,0,0
+BR,BRA,2,Brasil,Brésil,,Brazil,,البرازيل,Brasil,Brasilien,Бразилия,2,2-PME,-10.3333333,-53.2,Amériques,2,,0,0
+BS,BHS,2,The Bahamas,Bahamas,,Bahamas,,الباهاماس,Bahamas,Bahamas,Багамы,99,99-Other,24.0897198,-76.5739731,,2,,0,0
+BT,BTN,2,འབྲུག་ཡུལ་,Bhoutan,,Bhutan,,بوتان,Bután,Bhutan,Бутан,99,99-Other,27.4745015,90.4358523,Asie,11,,0,0
+BV,BVT,0,Bouvet Island,Île Bouvet,,Bouvet Island,,جزيرة بوفيه,Isla Bouvet,Bouvetinsel,Остров Буве,99,99-Other,-54.4203,3.3597,,3,NO,0,0
+BW,BWA,2,Botswana,Botswana,,Botswana,,بوتسوانا,Botsuana,Botswana,Ботсвана,4,4-PPD,-23.1681782,24.5928742,Afrique,10,,0,0
+BY,BLR,2,Беларусь,Biélorussie,,Belarus,,روسيا البيضاء,Bielorrusia,Weißrussland,Белоруссия,3,3-PMP,53.4250605,27.6971358,Europe,11,,0,0
+BZ,BLZ,2,Belize,Belize,,Belize,,بيليز,Belice,Belize,Белиз,99,99-Other,17.1908648,-88.2680289,Amériques,2,,0,1
+CA,CAN,2,Canada,Canada,,Canada,,كندا,Canadá,Kanada,Канада,2,2-PME,61.0666922,-107.9917071,Amériques,1,,0,0
+CC,CCK,4,Cocos Islands,Îles Cocos,,Cocos Islands,,جزر كوكوس,Islas Cocos,Kokosinseln,Кокосовые острова,99,99-Other,-12.1691894,96.8301442,,11,AU,0,0
+CD,COD,2,République démocratique du Congo,République Démocratique du Congo,Rép. Dém. Du Congo,Democratic Republic of the Congo,,جمهورية الكونغو الديمقراطية,República Democrática del Congo,Demokratische Republik Kongo,Демократическая Республик,3,3-PMP,-2.9814344,23.8222636,Afrique,10,,0,0
+CF,CAF,2,Centrafrique,République Centrafricaine,,Central African Republic,,جمهورية أفريقيا الوسطى,República Centroafricana,Zentralafrikanische Republik,Центрально-Африканская Рес,3,3-PMP,7.0323598,19.9981227,Afrique,10,,0,0
+CG,COG,2,République du Congo,République du Congo,,Republic of Congo,,جمهورية الكونغو,República del Congo,Republik Kongo,Республика Конго,3,3-PMP,-0.7264327,15.6419155,Afrique,10,,0,0
+CH,CHE,2,Schweiz - Suisse - Svizzera - Svizra,Suisse,,Switzerland,,سويسرا,Suiza,Schweiz,Швейцария,3,3-PMP,46.7985624,8.2319736,Europe,6,,0,0
+CI,CIV,2,Côte d'Ivoire,Côte D'ivoire,,Côte d'Ivoire,,كوت ديفوار,Costa de Marfil,Elfenbeinküste,Кот-д'Ивуар,2,2-PME,7.9897371,-5.5679458,Afrique,9,,0,0
+CK,COK,2,Kūki 'Āirani,Îles Cook,,Cook Islands,,جزر كوك,Islas Cook,Cookinseln,Острова Кука,99,99-Other,-15.4374746,-161.5972899,,11,NZ,0,1
+CL,CHL,2,Chile,Chili,,Chile,,شيلي,Chile,Chile,Чили,3,3-PMP,-31.7613365,-71.3187697,Amériques,2,,0,0
+CM,CMR,2,Cameroun - Cameroon,Cameroun,,Cameroon,,كاميرون,Camerún,Kamerun,Камерун,2,2-PME,4.6125522,13.1535811,Afrique,10,,0,0
+CN,CHN,2,中国,Chine,,China,,جمهورية الصين الشعبية,China,China,Китай,2,2-PME,35.000074,104.999927,Asie,11,,0,0
+CO,COL,2,Colombia,Colombie,,Colombia,,كولومبيا,Colombia,Kolumbien,Колумбия,3,3-PMP,2.8894434,-73.783892,Amériques,2,,0,0
+CR,CRI,2,Costa Rica,Costa Rica,,Costa Rica,,كوستاريكا,Costa Rica,Costa Rica,Коста-Рика,3,3-PMP,10.2735633,-84.0739102,Amériques,2,,0,0
+CU,CUB,2,Cuba,Cuba,,Cuba,,كوبا,Cuba,Kuba,Куба,3,3-PMP,23.0131338,-80.8328748,Amériques,2,,0,0
+CV,CPV,2,Cabo Verde,Cap-Vert,,Cape Verde,,الرأس الأخضر,Cabo Verde,Kap Verde,Кабо-Верде,4,4-PPD,16.0000552,-24.0083947,Afrique,9,,0,0
+CX,CXR,4,Christmas Island,Île Christmas,,Christmas Island,,جزيرة عيد الميلاد,Isla De Navidad,Weihnachtsinsel,Остров Рождества,99,99-Other,-10.4837768,105.6472300,,,AU,0,1
+CY,CYP,2,Κύπρος,Chypre,,Cyprus,,قبرص,Chipre,Republik Zypern,Кипр,3,3-PMP,34.9823018,33.1451285,Europe,8,,1,0
+CZ,CZE,2,Česko,République Tchèque,Rép. Tchèque,Czech Republic,,الجمهورية التشيكية,República Checa,Tschechien,Чехия,3,3-PMP,49.8167003,15.4749544,Europe,7,,1,0
+DE,DEU,2,Deutschland,Allemagne,,Germany,,ألمانيا,Alemania,Deutschland,Германия,1,1-PME/FE,51.0834196,10.4234469,Europe,7,,1,0
+DJ,DJI,2,Djibouti,Djibouti,,Djibouti,,جيبوتي,Yibuti,Dschibuti,Джибути,3,3-PMP,11.8553,42.2342,Afrique,10,,0,0
+DK,DNK,2,Danmark,Danemark,,Denmark,,الدانمارك,Dinamarca,Dänemark,Дания,3,3-PMP,55.670249,10.3333283,Europe,3,,1,0
+DM,DMA,2,Dominica,Dominique,,Dominica,,دومينيكا,Dominica,Dominica,Доминика,99,99-Other,15.3973214,-61.359954,Amériques,2,,0,0
+DO,DOM,2,República Dominicana,République Dominicaine,,Dominican Republic,,الجمهورية الدومينيكية,República Dominicana,Dominikanische Republik,Доминиканская Республика,3,3-PMP,19.0974031,-70.3028026,Amériques,2,,0,0
+DZ,DZA,2,Algeria,Algérie,,Algeria,,الجزائر,Argelia,Algerien,Алжир,2,2-PME,28.0000272,2.9999825,Afrique du Nord / Moyen-Orient,9,,0,0
+EC,ECU,2,Ecuador,Équateur,,Ecuador,,إكوادور,Ecuador,Ecuador,Эквадор,3,3-PMP,-1.3397668,-79.3666965,Amériques,2,,0,0
+EE,EST,2,Eesti,Estonie,,Estonia,,استونيا,Estonia,Estland,Эстония,3,3-PMP,58.7523778,25.3319078,Europe,3,,1,0
+EG,EGY,2,مصر,Égypte,,Egypt,,مصر,Egipto,Ägypten,Египет,2,2-PME,26.2540493,29.2675469,Afrique du Nord / Moyen-Orient,10,,0,0
+EH,ESH,0,Western Sahara,Sahara Occidental,,Western Sahara,,الصحراء الغربية,Sáhara Occidental,Westsahara,Западная Сахара,99,99-Other,24.1797324,-13.7667848,Afrique du Nord / Moyen-Orient,9,,0,0
+ER,ERI,2,ኤርትራ,Érythrée,,Eritrea,,إريتريا,Eritrea,Eritrea,Эритрея,4,4-PPD,15.9500319,37.9999668,Afrique,10,,0,0
+ES,ESP,2,España,Espagne,,Spain,,إسبانيا,España,Spanien,Испания,1,1-PME/FE,40.0028028,-4.003104,Europe,5,,1,0
+ET,ETH,2,ኢትዮጵያ / Ethiopia,Éthiopie,,Ethiopia,,أثيوبيا,Etiopía,Äthiopien,Эфиопия,2,2-PME,10.2116702,38.6521203,Afrique,10,,0,0
+FI,FIN,2,Suomi,Finlande,,Finland,,فنلندا,Finlandia,Finnland,Финляндия,3,3-PMP,63.2467777,25.9209164,Europe,3,,1,0
+FJ,FJI,2,Fiji,Fidji,,Fiji,,فيجي,Fiyi,Fidschi,Фиджи,4,4-PPD,-18.1239696,179.0122737,Océanie,11,,0,0
+FK,FLK,2,Falkland Islands,Îles Malouines,,Falkland Islands,,جزر فوكلاند,Islas Malvinas,Falklandinseln,Фолклендские острова,99,99-Other,-51.9579887,-59.569457,Amériques,3,UK,0,0
+FM,FSM,2,Micronesia,États Fédérés de Micronésie,,Micronesia,,مايكرونيزيا,Estados Federados de Micronesia,Mikronesien,"Микронезии, Федеративные Ш",99,99-Other,5.559,150.2299283,Océanie,11,,0,0
+FO,FRO,2,Føroyar,Îles Féroé,,Faroe Islands,,جزر فارو,Islas Feroe,Färöer,Фарерские острова,99,99-Other,61.8678577,-6.9698548,Europe,3,DK,0,0
+FR,FRA,2,France,France,,France,,فرنسا,Francia,Frankreich,Франция,1,1-HC,46.603354,1.8883335,Europe,,,1,0
+GA,GAB,2,Gabon,Gabon,,Gabon,,الغابون,Gabón,Gabun,Габон,3,3-PMP,-0.8999695,11.6899699,Afrique,10,,0,0
+GB,GBR,2,United Kingdom,Royaume-Uni,,United Kingdom,,المملكة المتحدة,Reino Unido,Vereinigtes Königreich,Соединённое Королевство Ве,1,1-PME/FE,54.7023545,-3.2765753,Europe,3,,1,0
+GD,GRD,2,Grenada,Grenade,,Grenada,,غرينادا,Granada,Grenada,Гренада,99,99-Other,12.1913266,-61.5899005,Amériques,2,,0,0
+GE,GEO,2,საქართველო,Géorgie,,Georgia,,جيورجيا,Georgia,Georgien,Грузия,3,3-PMP,41.6809707,44.0287382,Europe,11,,0,0
+GF,GUF,3,Guyane Française,Guyane Française,,French Guiana,,غويانا الفرنسية,Guayana Francesa,Französisch-Guayana,Французская Гвиана,99,99-Other,4.0039882,-52.9999980,Amériques,,FR,0,0
+GG,GGY,2,Guernsey,Guernesey,,Guernsey,,غيرنزي,Guernsey,Guernsey,Гернси,99,99-Other,49.58122,-2.5356414,Europe,,UK,0,0
+GH,GHA,2,Ghana,Ghana,,Ghana,,غانا,Ghana,Ghana,Гана,5,3-PMP,8.0300284,-1.0800271,Afrique,10,,0,0
+GI,GIB,2,Gibraltar,Gibraltar,,Gibraltar,,جبل طارق,Gibraltar,Gibraltar,Гибралтар,99,99-Other,36.1068963,-5.3386582,Europe,3,UK,0,0
+GL,GRL,2,Kalaallit Nunaat,Groenland,,Greenland,,جرينلاند,Groenlandia,Grönland,Гренландия,99,99-Other,71.6952795,-42.0769588,Europe,3,DK,0,0
+GM,GMB,2,Gambia,Gambie,,Gambia,,غامبيا,Gambia,Gambia,Гамбия,99,99-Other,13.4431569,-15.4133017,Afrique,9,,0,0
+GN,GIN,2,Guinée,Guinée,,Guinea,,غينيا,Guinea,Guinea,Гвинея,3,3-PMP,10.7226226,-10.7083587,,9,,0,0
+GP,GLP,3,Guadeloupe,Guadeloupe,,Guadeloupe,,جزر جوادلوب,Guadalupe,Guadeloupe,Гваделупа,99,99-Other,16.2490067,-61.5650444,Amériques,,FR,0,0
+GQ,GNQ,2,Guinea Ecuatorial,Guinée Équatoriale,,Equatorial Guinea,,غينيا الاستوائي,Guinea Ecuatorial,Äquatorialguinea,Экваториальная Гвинея,3,3-PMP,1.613172,10.5170357,Afrique,10,,0,0
+GR,GRC,2,Ελλάδα,Grèce,,Greece,,اليونان,Grecia,Griechenland,Греция,3,3-PMP,38.9953683,21.9877132,Europe,8,,1,0
+GS,SGS,2,South Georgia and South Sandwich Islands,Géorgie du Sud et les Îles Sandwich du Sud,,South Georgia and the South Sandwich Islands,,جورجيا الجنوبية وجزر ساندويتش الجنوبية,Sudo Georgia y los Islas Sandwich del Sur,Südgeorgien und die Südlichen Sandwichinseln,Южная Георгия и Южные Сандвичевы Острова,99,99-Other,-56.5685843,-33.9908678,,3,UK,0,0
+GT,GTM,2,Guatemala,Guatemala,,Guatemala,,غواتيمال,Guatemala,Guatemala,Гватемала,3,3-PMP,15.6356088,-89.8988087,Amériques,2,,0,0
+GU,GUM,4,Guam,Guam,,Guam,,جوام,Guam,Guam,Гуам,99,99-Other,13.4459805,144.7391922,,1,US,0,0
+GW,GNB,2,Guiné-Bissau,Guinée-Bissau,,Guinea-Bissau,,غينيا-بيساو,Guinea Bisáu,Guinea-Bissau,Гвинея-Бисау,4,4-PPD,12.100035,-14.9000214,Afrique,9,,0,0
+GY,GUY,2,Guyana,Guyana,,Guyana,,غيانا,Guyana,Guyana,Гайана,6,6-Résidence,5.385,-58.7054,Amériques,2,,0,0
+HK,HKG,3,Hong Kong,Hong-Kong,,Hong Kong,,هونغ كونغ,Hong Kong,Hongkong,Гонконг,99,99-Other,22.3506270,114.1849161,Asie,11,CN,0,0
+HM,HMD,0,Heard Island and MacDonald,Île Heard et Îles Mcdonald,,Heard Island and McDonald Islands,,جزيرة هيرد وجزر ماكدونالد,Islas de Heard y McDonald,Heard und McDonaldinseln,Остров Херд и острова Макдональд,99,99-Other,-53.0242765,72.9231353,,,AU,0,1
+HN,HND,2,Honduras,Honduras,,Honduras,,هندوراس,Honduras,Honduras,Гондурас,4,4-PPD,15.0610686,-84.5978534,Amériques,2,,0,0
+HR,HRV,2,Hrvatska,Croatie,,Croatia,,كرواتيا,Croacia,Kroatien,Хорватия,3,3-PMP,45.5643442,17.0118954,Europe,7,,1,0
+HT,HTI,2,Haiti,Haïti,,Haiti,,هايتي,Haití,Haiti,Гаити,3,3-PMP,19.1399952,-72.3570972,Amériques,2,,0,0
+HU,HUN,2,Magyarország,Hongrie,,Hungary,,هنغاريا ,Hungría,Ungarn,Венгрия,3,3-PMP,47.1817585,19.5060937,Europe,7,,1,0
+ID,IDN,2,Indonesia,Indonésie,,Indonesia,,أندونيسيا,Indonesia,Indonesien,Индонезия,2,2-PME,-4.7993356,114.5632032,Asie,11,,0,0
+IE,IRL,2,Ireland,Irlande,,Ireland,,إيرلندا,Irlanda,Irland,Ирландия,3,3-PMP,52.865196,-7.9794599,Europe,3,,1,0
+IL,ISR,2,ישראל,Israël,,Israel,,إسرائيل,Israel,Israel,Израиль,2,2-PME,30.8760272,35.0015196,Afrique du Nord / Moyen-Orient,8,,0,0
+IM,IMN,2,Isle of Man,Île de Man,,Isle of Man,,جزيرة مان,Isla Man,Isle of Man,Остров Мэн,99,99-Other,54.1992144,-4.5680673,Europe,3,UK,0,0
+IN,IND,2,India,Inde,,India,,الهند,India,Indien,Индия,2,2-PME,22.3511148,78.6677428,Asie,11,,0,0
+IO,IOT,2,British Indian Ocean Territory,Territoire Britannique de l'Océan Indien,,British Indian Ocean Territory,,إقليم المحيط الهندي البريطاني,Territorio Británico del Océano Indico,Britisches Territorium im Indischen Ozean,Британская Территория в Индийском Океане,99,99-Other,-6.3412369,71.8692598,,3,UK,0,0
+IQ,IRQ,2,العراق,Irak,,Iraq,,العراق,Irak,Irak,Ирак,3,3-PMP,33.0955793,44.1749775,Afrique du Nord / Moyen-Orient,10,,0,0
+IR,IRN,2,ایران,Iran,,Iran,,إيران,Irán,Iran,Иран,3,3-PMP,32.9407495,52.9471344,Afrique du Nord / Moyen-Orient,11,,0,0
+IS,ISL,2,Ísland,Islande,,Iceland,,آيسلندا,Islandia,Island,Исландия,3,3-PMP,64.9841821,-18.1059013,Europe,3,,0,0
+IT,ITA,2,Italia,Italie,,Italy,,إيطاليا,Italia,Italien,Италия,1,1-PME/FE,42.6384261,12.674297,Europe,8,,1,0
+JE,JEY,2,Jersey,Jersey,,Jersey,,جيرزي,Jersey,Jersey,Джерси,99,99-Other,49.1663334,-2.19625,Europe,3,UK,0,0
+JM,JAM,2,Jamaica,Jamaïque,,Jamaica,,جمايكا,Jamaica,Jamaika,Ямайка,4,4-PPD,18.1850507,-77.3947693,Amériques,2,,0,0
+JO,JOR,2,الزرقاء,Jordanie,,Jordan,,الأردن,Jordania,Jordanien,Иордания,3,3-PMP,31.1667049,36.941628,Afrique du Nord / Moyen-Orient,10,,0,0
+JP,JPN,2,日本,Japon,,Japan,,اليابان,Japón,Japan,Япония,2,2-PME,36.5748441,139.2394179,Asie,11,,0,0
+KE,KEN,2,Kenya,Kenya,,Kenya,,كينيا,Kenia,Kenia,Кения,2,2-PME,1.4419683,38.4313975,Afrique,10,,0,0
+KG,KGZ,2,Кыргызстан,Kirghizistan,,Kyrgyzstan,,قيرغيزستان,Kirguistán,Kirgisistan,Киргизия,4,4-PPD,41.5089324,74.724091,Asie,11,,0,0
+KH,KHM,2,កម្ពុជា,Cambodge,,Cambodia,,كمبوديا,Camboya,Cambodia,Камбоджа,3,3-PMP,13.5066394,104.869423,Asie,11,,0,0
+KI,KIR,2,Kiribati,Kiribati,,Kiribati,,كيريباتي,Kiribati,Kiribati,Кирибати,99,99-Other,0.44833,-171.66548,Océanie,11,,0,0
+KM,COM,2,Comores,Comores,,Comoros,,جزر القمر,Comoras,Komoren,Коморские острова,3,3-PMP,-12.2045176,44.2832964,Afrique,10,,0,0
+KN,KNA,2,Saint Kitts and Nevis,Saint-Christophe-et-Niévès,,Saint Kitts and Nevis,,سانت كيتس ونيفس,San Cristóbal y Nieves,St. Kitts und Nevis,Сент-Китс и Невис,99,99-Other,17.2554073,-62.6907404,,2,,0,0
+KP,PRK,2,조선민주주의인민공화국,Corée du Nord,,North Korea,,كوريا الشمالية,Corea del Norte,Nordkorea,"Корея, северная",5,5-Bureau,40.3736611,127.0870417,Asie,,,0,0
+KR,KOR,2,대한민국,Corée du Sud,,South Korea,,كوريا الجنوبية,Corea del Sur,Südkorea,"Корея, южная",2,2-PME,36.5581914,127.9408564,Asie,11,,0,0
+KW,KWT,2,الكويت,Koweït,,Kuwait,,الكويت,Kuwait,Kuwait,Кувейт,3,3-PMP,29.2733964,47.4979476,Afrique du Nord / Moyen-Orient,10,,0,0
+KY,CYM,2,Cayman Islands,Îles Caïmanes,,Cayman Islands,,جزر كايمان,Islas Caimán,Kaiman-Inseln,Каймановы Острова,99,99-Other,19.5097189,-80.5712351,,3,UK,0,1
+KZ,KAZ,2,Казахстан,Kazakstan,,Kazakhstan,,كازاخستان,Kazaistán,Kasachstan,Казахстан,3,3-PMP,47.2286086,65.2093197,Asie,11,,0,0
+LA,LAO,2,ປະເທດລາວ,Laos,,Laos,,لاوس,Laos,Laos,Лаос,3,3-PMP,20.0171109,103.378253,Asie,11,,0,0
+LB,LBN,2,لبنان,Liban,,Lebanon,,لبنان,Líbano,Libanon,Ливан,2,2-PME,33.8750629,35.843409,Afrique du Nord / Moyen-Orient,10,,0,0
+LC,LCA,2,Saint Lucia,Sainte-Lucie,Ste-Lucie,Saint Lucia,,سانت لوسيا,Santa Lucía,St. Lucia,Сент-Люсия,3,3-PMP,13.8250489,-60.975036,,2,,0,0
+LI,LIE,2,Liechtenstein,Liechtenstein,,Liechtenstein,,ليختنشتين,Liechtenstein,Liechtenstein,Лихтенштейн,6,6-Résidence,47.1416307,9.5531527,Europe,6,,0,0
+LK,LKA,2,ශ්‍රී ලංකා,Sri Lanka,,Sri Lanka,,سريلانكا,Sri Lanka,Sri Lanka,Шри-Ланка,3,3-PMP,7.237148,80.820923,Asie,11,,0,0
+LR,LBR,2,Liberia,Libéria,,Liberia,,ليبيريا,Liberia,Liberia,Либерия,4,4-PPD,5.7499721,-9.3658524,Afrique,9,,0,0
+LS,LSO,2,Lesotho,Lesotho,,Lesotho,,ليسوتو,Lesotho,Lesotho,Лесото,99,99-Other,-29.6239461,28.2335865,Afrique,10,,0,0
+LT,LTU,2,Lietuva,Lituanie,,Lithuania,,لتوانيا,Lituania,Litauen,Литва,3,3-PMP,55.3500003,23.7499997,Europe,3,,1,0
+LU,LUX,2,Luxembourg,Luxembourg,,Luxembourg,,لوكسمبورغ,Luxemburgo,Luxemburg,Люксембург,4,3-PMP,49.8158683,6.1296751,Europe,4,,1,1
+LV,LVA,2,Latvija,Lettonie,,Latvia,,لاتفيا,Letonia,Lettland,Латвия,3,3-PMP,56.8406494,24.7537645,Europe,3,,1,0
+LY,LBY,2,ليبيا,Libye,,Libya,,ليبيا,Libia,Libyen,Ливия,3,3-PMP,26.8234472,18.1236723,Afrique du Nord / Moyen-Orient,9,,0,0
+MA,MAR,2,Maroc ⴰⵎⵔⵔⵓⴽ المغرب,Maroc,,Morocco,,المغرب,Marruecos,Marokko,Марокко,1,1-PME/FE,31.1728192,-7.3366043,Afrique du Nord / Moyen-Orient,9,,0,0
+MC,MCO,2,Monaco,Monaco,,Monaco,,موناكو,Mónaco,Monaco,Монако,3,3-PMP,43.734,7.4227,Europe,5,,0,1
+MD,MDA,2,Moldova,Moldavie,,Moldova,,مولدافيا,Moldavia,Moldawien,Молдавия,4,4-PPD,47.286747,28.5110236,Europe,11,,0,0
+ME,MNE,2,Crna Gora / Црна Гора,Monténégro,,Montenegro,,الجبل الأسود,Montenegro,Montenegro,Черногория,4,4-PPD,42.7728491,19.2408586,Europe,7,,0,0
+MG,MDG,2,Madagascar,Madagascar,,Madagascar,,مدغشقر,Madagascar,Madagaskar,Мадагаскар,1,1-PME/FE,-18.9249604,46.4416422,Afrique,10,,0,0
+MH,MHL,2,M̧ajeļ,Îles Marshall,,Marshall Islands,,جزر مارشال,Islas Marshall,Marshallinseln,Маршалловы Острова,99,99-Other,9.6235,166.4843173,,11,,0,1
+MK,MKD,2,Македонија,Ancienne République yougoslave de Macédoine (ARYM),ARYM,Former Yugoslav Republic of Macedonia,FYROM,جمهورية مقدونيا,Antigua República Yugoslava de Macedonia,Ehemalige jugoslawische Republik Mazedonien,Македония,3,3-PMP,41.6171214,21.7168387,Europe,7,,0,0
+ML,MLI,2,Mali,Mali,,Mali,,مالي,Malí,Mali,Мали,3,3-PMP,16.3700359,-2.2900239,Afrique,9,,0,0
+MM,MMR,2,မြန်မာ,Birmanie,,Myanmar/Burma,,ميانمار,Birmania,Myanmar,Мьянма,3,3-PMP,17.1750495,95.9999652,Asie,11,,0,0
+MN,MNG,2,Монгол Улс,Mongolie,,Mongolia,,منغوليا,Mongolia,Mongolei,Монголия,3,3-PMP,46.8250388,103.8499736,Asie,11,,0,0
+MO,MAC,3,Macao,Macao,,Macao,,ماكاو,Macao,Macau,Макао,99,99-Other,22.1899448,113.5380454,Asie,11,CN,0,1
+MP,MNP,4,Northern Mariana Islands,Îles Mariannes du Nord,,Northern Mariana Islands,,جزر ماريانا الشمالية,Marianas del Norte,Nördliche Marianen,Северные Марианские остров,99,99-Other,15.2141,145.7560,,1,US,0,0
+MQ,MTQ,3,Martinique,Martinique,,Martinique,,مارتينيك,Martinica,Martinique,Мартиника,99,99-Other,14.6113732,-60.9620777,Amériques,,FR,0,1
+MR,MRT,2,موريتانيا,Mauritanie,,Mauritania,,موريتانيا,Mauritania,Mauretanien,Мавритания,3,3-PMP,20.2540382,-9.2399263,Afrique,9,,0,0
+MS,MSR,2,Montserrat,Montserrat,,Montserrat,,مونتسيرات,Montserrat,Montserrat,Монтсерат,99,99-Other,16.7451489,-62.1930244,,3,UK,0,1
+MT,MLT,2,Malta,Malte,,Malta,,مالطا,Malta,Malta,Мальта,3,3-PMP,35.8885993,14.4476911,Europe,8,,1,1
+MU,MUS,2,Mauritius,Maurice,,Mauritius,,موريشيوس,Mauricio,Mauritius,Маврикий,3,3-PMP,-20.2759451,57.5703566,Afrique,10,,0,1
+MV,MDV,2,Maldivoj,Maldives,,Maldives,,المالديف,Maldivas,Malediven,Мальдивы,6,6-Résidence,4.7064352,73.3287853,Asie,11,,0,0
+MW,MWI,2,Malawi,Malawi,,Malawi,,مالاوي,Malaui,Malawi,Малави,4,99-Other,-13.2489239,34.2944674,Afrique,10,,0,0
+MX,MEX,2,México,Mexique,,Mexico,,المكسيك,México,Mexiko,Мексика,2,2-PME,22.5000485,-100.0000375,Amériques,2,,0,0
+MY,MYS,2,Malaysia,Malaisie,,Malaysia,,ماليزيا,Malasia,Malaysia,Малайзия,3,3-PMP,2.3923759,112.8471939,Asie,11,,0,0
+MZ,MOZ,2,Mozambique,Mozambique,,Mozambique,,موزمبيق,Mozambique,Mosambik,Мозамбик,3,3-PMP,-19.302233,34.9144977,Afrique,10,,0,0
+NA,NAM,2,Namibia,Namibie,,Namibia,,ناميبيا,Namibia,Namibia,Намибия,4,4-PPD,-23.2335499,17.3231107,Afrique,10,,0,0
+NC,NCL,3,Nouvelle Calédonie,Nouvelle-Calédonie,,New Caledonia,,كاليدونيا الجديدة,Nueva Caledonia,Neukaledonien,Новая Каледония,99,99-Other,-21.3019905,165.4880773,Océanie,,FR,0,0
+NE,NER,2,Niger,Niger,,Niger,,النيجر,Níger,Niger,Нигер,3,3-PMP,17.7356214,9.3238432,Afrique,9,,0,0
+NF,NFK,4,Norfolk Island,Île Norfolk,,Norfolk Island,,جزيرة نورفولك,Norfolk Island,Norfolkinsel,Остров Норфолк,99,99-Other,-29.0328038,167.9483137,,11,AU,0,0
+NG,NGA,2,Nigeria,Nigéria,,Nigeria,,نيجيريا,Nigeria,Nigeria,Нигерия,2,2-PME,9.6000359,7.9999721,Afrique,10,,0,0
+NI,NIC,2,Nicaragua,Nicaragua,,Nicaragua,,نيكاراجوا,Nicaragua,Nicaragua,Никарагуа,4,4-PPD,12.3724928,-84.8700308,Amériques,2,,0,0
+NL,NLD,2,Nederland,Pays-Bas,,Netherlands,,هولندا,Países Bajos,Königreich der Niederlande,Нидерланды,4,3-PMP,52.5001698,5.7480821,Europe,4,,1,0
+NO,NOR,2,Norge,Norvège,,Norway,,النرويج,Noruega,Norwegen,Норвегия,3,3-PMP,60.5000209,9.0999715,Europe,3,,0,0
+NP,NPL,2,Nepal,Népal,,Nepal,,نيبال,Nepal,Nepal,Непал,4,4-PPD,28.1083929,84.0917139,Asie,11,,0,0
+NR,NRU,2,Naoero,Nauru,,Nauru,,نورو,Nauru,Nauru,Науру,99,99-Other,-0.528,166.9348582,Océanie,11,,0,1
+NU,NIU,2,Niuē,Nioué,,Niue,,ني,Niue,Niue,Ниуэ,99,99-Other,-19.0541612,-169.8621129,Océanie,11,NZ,0,1
+NZ,NZL,2,New Zealand,Nouvelle-Zélande,,New Zealand,,نيوزيلندا,Nueva Zelanda,Neuseeland,Новая Зеландия,3,3-PMP,-41.5000831,172.8344077,Océanie,11,,0,0
+OM,OMN,2,عُمان,Oman,,Oman,,عُمان,Omán,Oman,Оман,3,3-PMP,21.0000287,57.0036901,Asie,10,,0,0
+PA,PAN,2,Panama,Panama,,Panama,,بنما,Panamá,Panama,Панама,3,3-PMP,8.3096067,-81.3066246,Amériques,2,,0,0
+PE,PER,2,Perú,Pérou,,Peru,,بيرو,Perú,Peru,Перу,3,3-PMP,-6.8699697,-75.0458515,Amériques,2,,0,0
+PF,PYF,3,Polynésie Française,Polynésie Française,,French Polynesia,,بولينيزيا الفرنسية,Polinesia Francesa,Französisch-Polynesien,Французская Полинезия,99,99-Other,-18.6243749,-144.6434898,Océanie,,FR,0,0
+PG,PNG,2,Papua New Guinea,Papouasie-Nouvelle-Guinée,,Papua New Guinea,,بابوا غينيا الجديدة,Papúa-Nueva Guinea,Papua-Neuguinea,Папуа — Новая Гвинея,4,4-PPD,-5.6816069,144.2489081,Océanie,11,,0,0
+PH,PHL,2,Philippines,Philippines,,Philippines,,الفليبين,Filipinas,Philippinen,Филиппины,3,3-PMP,12.7503486,122.7312101,Asie,11,,0,0
+PK,PAK,2,‪‫پاکستان‬,Pakistan,,Pakistan,,باكستان,Pakistán,Pakistan,Пакистан,2,2-PME,30.3308401,71.247499,Asie,11,,0,0
+PL,POL,2,Polska,Pologne,,Poland,,بولونيا,Polonia,Polen,Польша,2,2-PME,52.0977181,19.0258159,Europe,7,,1,0
+PM,SPM,3,Saint Pierre et Miquelon,Saint-Pierre-et-Miquelon,,Saint Pierre and Miquelon,,سان بيير وميكلون,San Pedro y Miquelón,Saint-Pierre und Miquelon,Сен-Пьер и Микелон,99,99-Other,46.8374544,-56.2120555,,,FR,0,1
+PN,PCN,2,Pitcairn Islands,Pitcairn,,Pitcairn Islands,,جزر بيتكيرن,Isla Pitcairn,Pitcairn,Острова Питкэрн,99,99-Other,-24.4981252,-127.7612601,,3,UK,0,1
+PR,PRI,4,Puerto Rico,Porto Rico,,Puerto Rico,,بورتو ريكو,Puerto Rico,Puerto Rico,Пуэрто-Рико,99,99-Other,18.4652990,-66.1166660,Amériques,1,US,0,1
+PS,PSE,2,الأراضي الفلسطينية,Territoires palestiniens,,Palestina,,الأراضي الفلسطينية,Territorios Palestinos,Palästina,палестинской территории,99,99-Other,31.8861384,34.8212339,Afrique du Nord / Moyen-Orient,8,,0,0
+PT,PRT,2,Portugal,Portugal,,Portugal,,البرتغال,Portugal,Portugal,Португалия,3,3-PMP,40.033265,-7.8896263,Europe,5,,1,0
+PW,PLW,2,Belau,Palaos,,Palau,,بالاو,Palos,Palau,Палау,99,99-Other,5.485,132.9200098,Océanie,11,US,0,0
+PY,PRY,2,Paraguay,Paraguay,,Paraguay,,باراغواي,Paraguay,Paraguay,Парагвай,3,4-PPD,-23.3165935,-58.1693445,Amériques,2,,0,0
+QA,QAT,2,قطر,Qatar,,Qatar,,قطر,Catar,Katar,Катар,3,3-PMP,25.3336984,51.2295295,Afrique du Nord / Moyen-Orient,10,,0,0
+RE,REU,3,Réunion,La Réunion,,Réunion,,ريونيون,Reunión,Réunion,Реюньон,99,99-Other,-21.1309332,55.5265771,Asie,,FR,0,1
+RO,ROU,2,România,Roumanie,,Romania,,رومانيا,Rumanía,Rumänien,Румыния,3,3-PMP,45.9852129,24.6859225,Europe,7,,1,0
+RS,SRB,2,Србија,Serbie,,Serbia,,جمهورية صربيا,Serbia,Serbien,Сербия,3,3-PMP,44.1534121,20.55144,Europe,7,,0,0
+RU,RUS,2,Россия,Russie,,Russia,,روسيا,Rusia,Russland,Россия,2,2-PME,64.6863136,97.7453061,Europe,11,,0,0
+RW,RWA,2,Rwanda,Rwanda,,Rwanda,,رواندا,Ruanda,Ruanda,Руанда,3,3-PMP,-1.9646631,30.0644358,Afrique,10,,0,0
+SA,SAU,2,السعودية,Arabie Saoudite,,Saudi Arabia,,المملكة العربية السعودية,Arabia Saudí,Saudi-Arabien,Саудовская Аравия,2,2-PME,25.6242618,42.3528328,Afrique du Nord / Moyen-Orient,10,,0,0
+SB,SLB,2,Solomon Islands,Îles Salomon,,Solomon Islands,,جزر سليمان,Islas Salomón,Salomonen,Соломоновы Острова,99,99-Other,-9.0266399,162.8577611,Océanie,11,,0,0
+SC,SYC,2,Seychelles,Seychelles,,Seychelles,,سيشيل,Seychelles,Seychellen,Сейшельские острова,4,4-PPD,-4.6574977,55.4540146,Afrique,10,,0,1
+SD,SDN,2,السودان,Soudan,,Sudan,,السودان,Sudán,Sudan,Судан,3,3-PMP,14.5844444,29.4917691,Afrique,10,,0,0
+SE,SWE,2,Sverige,Suède,,Sweden,,السويد,Suecia,Schweden,Швеция,3,3-PMP,59.6749712,14.5208584,Europe,3,,1,0
+SG,SGP,2,Singapore,Singapour,,Singapore,,سنغافورة,Singapur,Singapur,Сингапур,3,3-PMP,1.357107,103.8194992,Asie,11,,0,0
+SH,SHN,2,"Saint Helena, Ascension and Tristan da Cunha",Sainte-Hélène,,Saint Helena,,سانت هيلانة,Santa Elena,St. Helena,Остров Святой Елены,99,99-Other,-24.13,-10.0230549,,3,UK,0,1
+SI,SVN,2,Slovenija,Slovénie,,Slovenia,,سلوفينيا,Eslovenia,Slowenien,Словения,3,3-PMP,45.8133113,14.4808369,Europe,7,,1,0
+SJ,SJM,0,Svalbard and Jan Mayen,Svalbard et Île Jan Mayen,,Svalbard and Jan Mayen,,سفالبارد ويان ماين,Svalbard y Jan Mayen,Spitzbergen und Jan Mayen,Шпицберген и Ян-Майен,99,99-Other,78.7198519,20.3493328,Europe,3,NO,0,0
+SK,SVK,2,Slovensko,Slovaquie,,Slovakia,,سلوفاكيا,Eslovaquia,Slowakei,Словакия,3,3-PMP,48.7411522,19.4528646,Europe,7,,1,0
+SL,SLE,2,Sierra Leone,Sierra Leone,,Sierra Leone,,سيراليون,Sierra Leona,Sierra Leone,Сьерра-Леоне,6,6-Résidence,8.6400349,-11.8400269,Afrique,9,,0,0
+SM,SMR,2,San Marino,Saint-Marin,,San Marino,,سان مارينو,San Marino,San Marino,Сан-Марино,99,99-Other,43.9428966,12.4596955,Europe,8,,0,1
+SN,SEN,2,Sénégal,Sénégal,,Senegal,,السنغال,Senegal,Senegal,Сенегал,1,1-PME/FE,14.4750607,-14.4529612,Afrique,9,,0,0
+SO,SOM,2,الصومال,Somalie,,Somalia,,الصومال,Somalia,Somalia,Сомали,4,6-Résidence,8.3676771,49.083416,Afrique,10,,0,0
+SR,SUR,2,Suriname,Suriname,,Suriname,,سورينام,Surinam,Suriname,Суринам,4,4-PPD,4.1413025,-56.0771187,Amériques,2,,0,0
+SS,SSD,2,South Sudan,Soudan du Sud,,South Sudan,,جنوب السودان,Sudán del Sur,Südsudan,Южный Судан,4,4-PPD,7.8699431,29.6667897,Afrique,10,,0,0
+ST,STP,2,São Tomé e Príncipe,Sao Tomé-et-Principe,,Sao Tome and Principe,,ساو تومي وبرينسيبي,Santo Tomé y Príncipe,São Tomé und Príncipe,Сан-Томе и Принсипи,99,99-Other,0.8561232,6.9655601,Afrique,10,,0,0
+SV,SLV,2,El Salvador,Salvador,,El Salvador,,إلسلفادور,El Salvador,El Salvador,Сальвадор,4,4-PPD,13.8000382,-88.9140683,Amériques,2,,0,0
+SY,SYR,2,سورية,Syrie,,Syria,,سورية,Siria,Syrien,Сирия,3,3-PMP,34.6401861,39.0494106,Afrique du Nord / Moyen-Orient,10,,0,0
+SZ,SWZ,2,Swaziland,Swaziland,,Swaziland,,سوازيلند,Suazilandia,Swasiland,Свазиленд,6,6-Résidence,-26.5624806,31.3991317,Afrique,10,,0,0
+TC,TCA,2,Turks and Caicos Islands,Îles Turks et Caïques,,Turks and Caicos Islands,,جزر توركس وكايكوس,Islas Turcas y Caicos,Turks- und Caicosinseln,Теркс и Кайкос,99,99-Other,21.5592203,-71.7721318,,3,UK,0,1
+TD,TCD,2,Chad تشاد,Tchad,,Chad,,تشاد,Chad,Tschad,Чад,3,3-PMP,15.6134137,19.0156172,Afrique,10,,0,0
+TF,ATF,3,Terres Australes Françaises,Terres Australes Françaises,,French Southern Territories,,أراض فرنسية جنوبية وأنتارتيكية,Tierras Australes y Antárticas Francesas,Französische Süd- und Antarktisgebiete,Французские Южные и Антарктические территории,99,99-Other,-44.151178,63.8604556,,,FR,0,0
+TG,TGO,2,Togo,Togo,,Togo,,توغو,Togo,Togo,Того,5,3-PMP,8.7800265,1.0199765,Afrique,10,,0,0
+TH,THA,2,ประเทศไทย,Thaïlande,,Thailand,,تايلندا,Tailandia,Thailand,Таиланд,2,2-PME,14.8971921,100.83273,Asie,11,,0,0
+TJ,TJK,2,Тоҷикистон,Tadjikistan,,Tajikistan,,طاجيكستان,Tayikistán,Tadschikistan,Таджикистан,4,4-PPD,38.6281733,70.8156541,Asie,11,,0,0
+TK,TKL,2,Tokelau,Tokelau,,Tokelau,,توكيلاو,Tokelau,Tokelau,Токелау,99,99-Other,-8.9885565,-171.8505629,Océanie,11,NZ,0,1
+TL,TLS,2,Timór Lorosa'e,Timor-Est,,East Timor,,تيمور الشرقية,Timor Oriental,Osttimor,Восточный Тимор,99,99-Other,-8.8269117,125.7875547,Asie,11,,0,0
+TM,TKM,2,Türkmenistan,Turkménistan,,Turkmenistan,,تركمانستان,Turkmenistán,Turkmenistan,Туркменистан,4,4-PPD,39.3763807,59.3924609,Asie,11,,0,0
+TN,TUN,2,تونس,Tunisie,,Tunisia,,تونس,Túnez,Tunesien,Тунис,2,2-PME,33.8439408,9.400138,Afrique du Nord / Moyen-Orient,9,,0,0
+TO,TON,2,Tonga,Tonga,,Tonga,,تونغا,Tonga,Tonga,Тонга,99,99-Other,-19.7345111,-176.4580757,Océanie,11,,0,1
+TR,TUR,2,Türkiye,Turquie,,Turkey,,تركيا,Turquía,Türkei,Турция,2,2-PME,38.9597594,34.9249653,Europe,8,,0,0
+TT,TTO,2,Trinidad and Tobago,Trinité-et-Tobago,,Trinidad and Tobago,,ترينيداد وتوباغو,Trinidad y Tobago,Trinidad und Tobago,Тринидад и Тобаго,4,4-PPD,10.8677845,-60.9821067,Amériques,2,,0,0
+TV,TUV,2,Tuvalu,Tuvalu,,Tuvalu,,توفالو,Tuvalu,Tuvalu,Тувалу,99,99-Other,-8.5172,179.1448,Asie,11,,0,0
+TW,TWN,2,臺灣,Taïwan,,Taiwan,,تايوان,Taiwán,Taiwan,Тайвань,5,5-Bureau,23.9739374,120.9820179,Asie,11,,0,0
+TZ,TZA,2,Tanzania,Tanzanie,,Tanzania,,تنزانيا,Tanzania,Tansania,Танзания,3,3-PMP,-6.5247123,35.7878438,Afrique,10,,0,0
+UA,UKR,2,Україна,Ukraine,,Ukraine,,أوكرانيا,Ucrania,Ukraine,Украина,2,2-PME,49.4871968,31.2718321,Europe,11,,0,0
+UG,UGA,2,Uganda,Ouganda,,Uganda,,أوغندا,Uganda,Uganda,Уганда,3,3-PMP,1.5333554,32.2166578,Afrique,10,,0,0
+UM,UMI,0,United States Minor Outlying Islands,Îles Mineures Éloignées des États-Unis,,United States Minor Outlying Islands,,جزر الولايات المتحدة الصغيرة النائية,Islas Ultramarinas Menores de Estados Unidos,Kleinere Inselbesitzungen der Vereinigten Staaten,Внешние малые острова США,99,99-Other,,,,1,US,0,1
+US,USA,2,United States of America,États-Unis,,United States,,الولايات المتحدة,Estados Unidos,Vereinigte Staaten,Соединённые Штаты Америки,1,1-PME/FE,39.7837304,-100.4458825,Amériques,1,,0,0
+UY,URY,2,Uruguay,Uruguay,,Uruguay,,أورغواي,Uruguay,Uruguay,Уругвай,3,3-PMP,-32.8755548,-56.0201525,Amériques,2,,0,0
+UZ,UZB,2,O’zbekiston,Ouzbékistan,,Uzbekistan,,أوزباكستان,Uzbekistán,Usbekistan,Узбекистан,3,3-PMP,41.32373,63.9528098,Asie,11,,0,0
+VA,VAT,2,Vatican,Saint-Siège,,Vatican City,,الفاتيكان,Santa Sede,Vatikanstadt,Ватикан,4,3-PMP,41.9038,12.4559,Europe,8,,0,1
+VC,VCT,2,Saint Vincent and the Grenadines,Saint-Vincent-et-les Grenadines,,Saint Vincent and the Grenadines,,سانت فنسنت وجزر غرينادين,San Vicente y las Granadinas,St. Vincent und die Grenadinen,Сент-Винсент и Гренадины,99,99-Other,13.0498274,-61.2875808,,2,,0,0
+VE,VEN,2,Venezuela,Venezuela,,Venezuela,,فنزويلا,Venezuela,Venezuela,Венесуэла,3,3-PMP,8.0018709,-66.1109318,Amériques,2,,0,0
+VG,VGB,2,British Virgin Islands,Îles Vierges Britanniques,,British Virgin Islands,,الجزر العذراء البريطانية,Islas Virgenes Británicas,Britische Jungferninseln,Британские Виргинские остр,99,99-Other,18.5279556,-64.5078453,,3,UK,0,0
+VI,VIR,4,"Virgin Islands, U.S.",Îles Vierges des États-Unis,,"Virgin Islands, U.S.",,الجزر العذراء الأمريكي,Islas Virgenes Americanas,Amerikanische Jungferninseln,Американские Виргинские ос,99,99-Other,17.78919,-64.70900,,1,US,0,1
+VN,VNM,2,Việt Nam,Viêt Nam,,Vietnam,,فيتنام,Vietnam,Vietnam,Вьетнам,3,3-PMP,13.2904027,108.4265113,Asie,11,,0,0
+VU,VUT,2,Vanuatu,Vanuatu,,Vanuatu,,فانواتو,Vanuatu,Vanuatu,Вануату,3,3-PMP,-16.5255069,168.1069154,Océanie,11,,0,0
+WF,WLF,3,Wallis et Futuna,Wallis et Futuna,,Wallis and Futuna,,والس وفوتونا,Wallis y Futuna,Wallis und Futuna,Острова Уоллис и Футуна,99,99-Other,-13.8173324,-177.1489649,,,FR,0,1
+WS,WSM,2,Sāmoa,Samoa,,Samoa,,ساموا,Samoa,Samoa,Самоа,99,99-Other,-13.7576404,-172.1010547,Océanie,11,,0,1
+XK,XKO,2,Kosova,Kosovo,,Kosovo,,كوسوفو,Kosovo,Kosovo,Республика Косово,3,3-PMP,42.5869578,20.9021231,Europe,7,,0,0
+YE,YEM,2,اليَمَن,Yémen,,Yemen,,اليمن,Yemen,Jemen,Йемен,3,3-PMP,16.3471243,47.8915271,,10,,0,0
+YT,MYT,3,Mayotte,Mayotte,,Mayotte,,جزيرة مايوت,Mayotte,Mayotte,Майотта,99,99-Other,-12.82305,45.15114,Afrique,,FR,0,1
+ZA,ZAF,2,South Africa,Afrique du Sud,Af. du Sud,South Africa,,جنوب أفريقيا,Sudáfrica,Südafrika,Южно-Африканская Республик,2,2-PME,-28.8166236,24.991639,Afrique,10,,0,0
+ZM,ZMB,2,Zambia,Zambie,,Zambia,,زامبيا,Zambia,Sambia,Замбия,4,4-PPD,-14.5186239,27.5599164,Afrique,10,,0,0
+ZW,ZWE,2,Zimbabwe,Zimbabwé,,Zimbabwe,,زمبابوي,Zimbabue,Simbabwe,Зимбабве,3,3-PMP,-18.4554963,29.7468414,Afrique,10,,0,0
+,XAD,0,,Akrotiri et Dhekelia,,Akrotiri and Dhekelia,,أكروتيري ودكليا,Acrotiri y Dhekelia,Akrotiri und Dekelia,Акротири и Декелия,99,99-Other,34.60075,32.95519,Europe,3,UK,0,0
+CP,XCL,3,Clipperton,Clipperton,,Clipperton Island,,جزيرة كليبرتون,Isla Clipperton,Clipperton-Insel,Клиппертон,99,99-Other,10.3035,-109.2170,,,FR,0,1
+CW,CUW,3,Curaçao,Curaçao,,Curaçao,,كوراساو,Curazao,Curaçao,Кюрасао,99,99-Other,12.1091242,-68.9316546,Amériques,,NL,0,1
+BL,BLM,3,Saint-Barthélemy,Saint-Barthélemy,,Saint Barthélemy,,سان بارتيلمي,San Bartolomé,Saint-Barthélemy,Сен-Бартелеми,99,99-Other,17.8957043,-62.8508372,Amériques,,FR,0,1
+MF,MAF,3,Saint Martin,Saint-Martin,,Saint-Martin,,سانت مارتن,Saint-Martin,Saint-Martin,Сен-Мартен,99,99-Other,18.08141,-63.04765,,,FR,0,1
+SX,SXM,3,Sint Maarten,Saint-Martin,,Sint Maarten,,سينت مارتن,Sint Maarten,Sint Maarten,Синт-Мартен,99,99-Other,18.04237,-63.05593,Amériques,4,NL,0,0
