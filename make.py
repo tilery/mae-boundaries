@@ -97,6 +97,13 @@ async def compute_kashmir(conn):
     aksai_chin = await get_relation(conn, boundary="disputed_area",
                                   admin_level="", name="阿克赛钦 / Aksai Chin / अक्साई चिन")
     shape = await add_area(conn, shape, aksai_chin)
+    demchok = await get_relation(conn, boundary="disputed_area",
+                                  admin_level="", name="Demchok Eastern Sector")
+    shape = await add_area(conn, shape, demchok)
+    trans_karakoram  = await get_relation(conn, boundary="disputed_area",
+                                  admin_level="", name="Trans-Karakoram Tract")
+    shape = await add_area(conn, shape, trans_karakoram)
+
     return shape
 
 
