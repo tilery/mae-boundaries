@@ -88,6 +88,24 @@ async def compute_doklam(conn):
     shape = await add_area(conn, shape, other)
     return shape
 
+async def compute_kashmir(conn):
+    shape = await get_relation(conn, boundary="administrative",
+                                      admin_level="4", name="Jammu and Kashmir")
+    kashmir_pak = await get_relation(conn, boundary="disputed_area",
+                                      admin_level="", name="Kashmir")
+    shape = await add_area(conn, shape, kashmir_pak)
+    aksai_chin = await get_relation(conn, boundary="disputed_area",
+                                  admin_level="", name="阿克赛钦 / Aksai Chin / अक्साई चिन")
+    shape = await add_area(conn, shape, aksai_chin)
+    demchok = await get_relation(conn, boundary="disputed_area",
+                                  admin_level="", name="Demchok Eastern Sector")
+    shape = await add_area(conn, shape, demchok)
+    trans_karakoram  = await get_relation(conn, boundary="disputed_area",
+                                  admin_level="", name="Trans-Karakoram Tract")
+    shape = await add_area(conn, shape, trans_karakoram)
+
+    return shape
+
 
 async def remove_area(conn, shape, other):
     return await conn.fetchval(
@@ -122,6 +140,8 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
         })
 
     # Used more than once.
+    kashmir = await compute_kashmir(conn)
+    add_disputed(kashmir)
     golan = await compute_golan(conn)
     add_disputed(golan)
     doklam = await compute_doklam(conn)
@@ -132,6 +152,7 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
     halaib_triangle = await get_relation(conn, type='boundary',
                                                 name='مثلث حلايب‎')
     add_disputed(halaib_triangle)
+
     with (Path(__file__).parent / 'country.csv').open() as f:
         countries = list(csv.DictReader(f))
 
