@@ -123,8 +123,18 @@ async def add_area(conn, shape, other):
 
 
 async def load_country(conn, admin_level=2, **tags):
-    return await get_relation(conn, boundary='administrative', admin_level=admin_level,
-                              **tags)
+    return await get_relation(conn, boundary='administrative',
+                              admin_level=admin_level, **tags)
+
+
+async def snap_to_coastline(conn, country):
+    return await conn.fetchval("""
+        SELECT ST_Intersection(
+            ST_SetSRID(ST_Boundary(ST_ForcePolygonCCW($1::geometry)), 4326),
+            (SELECT ST_Collect(geom)
+             FROM land
+             WHERE ST_Intersects(ST_SetSRID($1::geometry, 4326), geom)))
+        """, country)
 
 
 @cli
@@ -206,9 +216,10 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
                                          name="الصحراء الغربية")
                 add_disputed(esh)
                 polygon = await add_area(conn, polygon, esh)
+            border = await snap_to_coastline(conn, polygon)
             boundaries.append({
                 'type': 'Feature',
-                'geometry': polygon.geojson,
+                'geometry': border.geojson,
                 'properties': properties
             })
     sba, properties = await load_country(conn,
