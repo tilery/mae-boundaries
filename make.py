@@ -157,6 +157,18 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
     # Used more than once.
     kashmir = await compute_kashmir(conn)
     add_disputed(kashmir)
+    shipki_la = await get_relation(conn, type='boundary',
+                                   name='什布奇山口地区')
+    add_disputed(shipki_la)
+    kaurik = await get_relation(conn, type='boundary',
+                                name='巨哇、曲惹地区')
+    add_disputed(kaurik)
+    jadh = await get_relation(conn, type='boundary',
+                              name='桑、葱莎、波林三多地区')
+    add_disputed(jadh)
+    lapthal = await get_relation(conn, type='boundary',
+                                 name='乌热、然冲、拉不底地区')
+    add_disputed(lapthal)
     golan = await compute_golan(conn)
     add_disputed(golan)
     doklam = await compute_doklam(conn)
@@ -167,6 +179,8 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
     halaib_triangle = await get_relation(conn, type='boundary',
                                          name='مثلث حلايب‎')
     add_disputed(halaib_triangle)
+    demchok = await get_relation(conn, boundary="disputed_area",
+                                 name="Demchok Eastern Sector")
 
     with (Path(__file__).parent / 'country.csv').open() as f:
         countries = list(csv.DictReader(f))
@@ -206,8 +220,10 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
                 claim = await get_relation(conn, type="boundary",
                                            name="Extent of Nepal Claim")
                 polygon = await remove_area(conn, polygon, claim)
+                polygon = await add_area(conn, polygon, demchok)
             if iso == 'CN':
                 polygon = await remove_area(conn, polygon, doklam)
+                polygon = await remove_area(conn, polygon, demchok)
             if iso == 'BH':
                 polygon = await add_area(conn, polygon, doklam)
             if iso == 'MA':
