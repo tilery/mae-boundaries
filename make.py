@@ -179,8 +179,6 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
     halaib_triangle = await get_relation(conn, type='boundary',
                                          name='مثلث حلايب‎')
     add_disputed(halaib_triangle)
-    demchok = await get_relation(conn, boundary="disputed_area",
-                                 name="Demchok Eastern Sector")
 
     with (Path(__file__).parent / 'country.csv').open() as f:
         countries = list(csv.DictReader(f))
@@ -220,10 +218,8 @@ async def process(itl_path: Path=Path('exports/boundary.json'),
                 claim = await get_relation(conn, type="boundary",
                                            name="Extent of Nepal Claim")
                 polygon = await remove_area(conn, polygon, claim)
-                polygon = await add_area(conn, polygon, demchok)
             if iso == 'CN':
                 polygon = await remove_area(conn, polygon, doklam)
-                polygon = await remove_area(conn, polygon, demchok)
             if iso == 'BH':
                 polygon = await add_area(conn, polygon, doklam)
             if iso == 'MA':
