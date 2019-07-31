@@ -1,0 +1,136 @@
+areas:
+  jammu-et-kashmir:
+    boundary: administrative
+    admin_level: 4
+    name: Jammu and Kashmir
+  kashmir-pakistan:
+    boundary: disputed_area
+    admin_level: ""
+    name: Kashmir
+  aksai-chin:
+    boundary: disputed_area
+    admin_level: ""
+    name: 阿克赛钦 / Aksai Chin / अक्साई चिन
+  demchok:
+    boundary: disputed_area
+    name: Demchok Eastern Sector
+  trans-karakoram:
+    boundary: disputed_area
+    name: Trans-Karakoram Tract
+  kashmir:
+    includes:
+      - jammu-et-kashmir
+      - kashmir-pakistan
+      - aksai-chin
+      - demchok
+      - trans-karakoram
+  shipki-la:
+    type: boundary
+    name: 什布奇山口地区
+  west-bank:
+    place: region
+    name: الضفة الغربية
+  golan-council:
+    boundary: administrative
+    admin_level: 8
+    name: מועצה אזורית גולן
+  majdal:
+    boundary: administrative
+    admin_level: 8
+    name: مجدل شمس
+  golan:
+    includes:
+      - golan-council
+      - majdal
+    exterior-ring: true
+  kaurik:
+    type: boundary
+    name: 巨哇、曲惹地区
+  jadh:
+    type: boundary
+    name: 桑、葱莎、波林三多地区
+  lapthal:
+    type: boundary
+    name: 乌热、然冲、拉不底地区
+  bir-tawil:
+    type: boundary
+    name: بيرطويل (Bir Tawil)
+  halaib-triangle:
+    type: boundary
+    name: مثلث حلايب‎
+  doklam-admin:
+    boundary: administrative
+    admin_level: 3
+    name: Doklam 洞郎地区
+  chamapu:
+    boundary: administrative
+    admin_level: 3
+    name: 查马普地区
+  kivu:
+    boundary: administrative
+    admin_level: 3
+    name: 基伍地区
+  lulin:
+    boundary: administrative
+    admin_level: 3
+    name: 鲁林地区
+  doklam:
+    includes:
+      - doklam-admin
+      - chamapu
+      - kivu
+      - lulin
+  sudan:
+    boundary: administrative
+    admin_level: 2
+    iso: SD
+  nepal-claim:
+    type: boundary
+    name: Extent of Nepal Claim
+  esh:
+    boundary: disputed
+    name: الصحراء الغربية
+disputed:
+  - kashmir
+  - shipki-la
+  - golan
+  - kaurik
+  - jadh
+  - lapthal
+  - bir-tawil
+  - halaib-triangle
+  - doklam
+  - nepal-claim
+  - esh
+countries:
+  BT:
+    includes:
+      - doklam
+  CN:
+    excludes:
+      - doklam
+  EG:
+    includes:
+      - bir-tawil
+  IL:
+    excludes:
+      - golan
+      - west-bank
+  IN:
+    excludes:
+      - nepal-claim
+  MA:
+    includes:
+      - esh
+  NP:
+    includes:
+      - nepal-claim
+  SD:
+    excludes:
+      - bir-tawil
+  SS:
+    excludes:
+      - sudan
+  SY:
+    includes:
+      - golan
