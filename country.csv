@@ -111,7 +111,7 @@ JE,JEY,2,Jersey,Jersey,,Jersey,,جيرزي,Jersey,Jersey,Джерси,99,99-Othe
 JM,JAM,2,Jamaica,Jamaïque,,Jamaica,,جمايكا,Jamaica,Jamaika,Ямайка,4,4-PPD,18.1850507,-77.3947693,Amériques,2,,0,0
 JO,JOR,2,الزرقاء,Jordanie,,Jordan,,الأردن,Jordania,Jordanien,Иордания,3,3-PMP,31.1667049,36.941628,Afrique du Nord / Moyen-Orient,10,,0,0
 JP,JPN,2,日本,Japon,,Japan,,اليابان,Japón,Japan,Япония,2,2-PME,36.5748441,139.2394179,Asie,11,,0,0
-KE,KEN,2,Kenya,Kenya,,Kenya,,كينيا,Kenia,Kenia,Кения,2,2-PME,1.4419683,38.4313975,Afrique,10,,0,0
+KE,KEN,2,Kenya,Kénya,,Kenya,,كينيا,Kenia,Kenia,Кения,2,2-PME,1.4419683,38.4313975,Afrique,10,,0,0
 KG,KGZ,2,Кыргызстан,Kirghizistan,,Kyrgyzstan,,قيرغيزستان,Kirguistán,Kirgisistan,Киргизия,4,4-PPD,41.5089324,74.724091,Asie,11,,0,0
 KH,KHM,2,កម្ពុជា,Cambodge,,Cambodia,,كمبوديا,Camboya,Cambodia,Камбоджа,3,3-PMP,13.5066394,104.869423,Asie,11,,0,0
 KI,KIR,2,Kiribati,Kiribati,,Kiribati,,كيريباتي,Kiribati,Kiribati,Кирибати,99,99-Other,0.44833,-171.66548,Océanie,11,,0,0
@@ -128,7 +128,7 @@ LC,LCA,2,Saint Lucia,Sainte-Lucie,Ste-Lucie,Saint Lucia,,سانت لوسيا,San
 LI,LIE,2,Liechtenstein,Liechtenstein,,Liechtenstein,,ليختنشتين,Liechtenstein,Liechtenstein,Лихтенштейн,6,6-Résidence,47.1416307,9.5531527,Europe,6,,0,0
 LK,LKA,2,ශ්‍රී ලංකා,Sri Lanka,,Sri Lanka,,سريلانكا,Sri Lanka,Sri Lanka,Шри-Ланка,3,3-PMP,7.237148,80.820923,Asie,11,,0,0
 LR,LBR,2,Liberia,Libéria,,Liberia,,ليبيريا,Liberia,Liberia,Либерия,4,4-PPD,5.7499721,-9.3658524,Afrique,9,,0,0
-LS,LSO,2,Lesotho,Lesotho,,Lesotho,,ليسوتو,Lesotho,Lesotho,Лесото,99,99-Other,-29.6239461,28.2335865,Afrique,10,,0,0
+LS,LSO,2,Lesotho,Lésotho,,Lesotho,,ليسوتو,Lesotho,Lesotho,Лесото,99,99-Other,-29.6239461,28.2335865,Afrique,10,,0,0
 LT,LTU,2,Lietuva,Lituanie,,Lithuania,,لتوانيا,Lituania,Litauen,Литва,3,3-PMP,55.3500003,23.7499997,Europe,3,,1,0
 LU,LUX,2,Luxembourg,Luxembourg,,Luxembourg,,لوكسمبورغ,Luxemburgo,Luxemburg,Люксембург,4,3-PMP,49.8158683,6.1296751,Europe,4,,1,1
 LV,LVA,2,Latvija,Lettonie,,Latvia,,لاتفيا,Letonia,Lettland,Латвия,3,3-PMP,56.8406494,24.7537645,Europe,3,,1,0
@@ -207,7 +207,7 @@ SS,SSD,2,South Sudan,Soudan du Sud,,South Sudan,,جنوب السودان,Sudán 
 ST,STP,2,São Tomé e Príncipe,Sao Tomé-et-Principe,,Sao Tome and Principe,,ساو تومي وبرينسيبي,Santo Tomé y Príncipe,São Tomé und Príncipe,Сан-Томе и Принсипи,99,99-Other,0.8561232,6.9655601,Afrique,10,,0,0
 SV,SLV,2,El Salvador,Salvador,,El Salvador,,إلسلفادور,El Salvador,El Salvador,Сальвадор,4,4-PPD,13.8000382,-88.9140683,Amériques,2,,0,0
 SY,SYR,2,سورية,Syrie,,Syria,,سورية,Siria,Syrien,Сирия,3,3-PMP,34.6401861,39.0494106,Afrique du Nord / Moyen-Orient,10,,0,0
-SZ,SWZ,2,Swaziland,Swaziland,,Swaziland,,سوازيلند,Suazilandia,Swasiland,Свазиленд,6,6-Résidence,-26.5624806,31.3991317,Afrique,10,,0,0
+SZ,SWZ,2,Eswatini,Eswatini,,Eswatini,,سوازيلند,Suazilandia,Swasiland,Свазиленд,6,6-Résidence,-26.5624806,31.3991317,Afrique,10,,0,0
 TC,TCA,2,Turks and Caicos Islands,Îles Turks et Caïques,,Turks and Caicos Islands,,جزر توركس وكايكوس,Islas Turcas y Caicos,Turks- und Caicosinseln,Теркс и Кайкос,99,99-Other,21.5592203,-71.7721318,,3,UK,0,1
 TD,TCD,2,Chad تشاد,Tchad,,Chad,,تشاد,Chad,Tschad,Чад,3,3-PMP,15.6134137,19.0156172,Afrique,10,,0,0
 TF,ATF,3,Terres Australes Françaises,Terres Australes Françaises,,French Southern Territories,,أراض فرنسية جنوبية وأنتارتيكية,Tierras Australes y Antárticas Francesas,Französische Süd- und Antarktisgebiete,Французские Южные и Антарктические территории,99,99-Other,-44.151178,63.8604556,,,FR,0,0
