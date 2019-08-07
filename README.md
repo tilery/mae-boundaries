@@ -7,6 +7,7 @@ It will generate two geojson:
 - `boundary.json`, with the international boundaries
 - `disputed.json`, with the disputed areas
 
+It also provides a list of country and city names.
 
 ## System requirements
 
@@ -24,10 +25,18 @@ It will generate two geojson:
 - Create python [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/),
   activate it and install python dependencies
 
-        python3 -m venv mae
+        python -m venv mae
         source mae/bin/activate
         pip install -r requirements.txt
 
 - run the script:
 
-        python make.py process
+        python make.py all
+
+
+## Rules
+
+- `areas`: define areas to be included/excluded from country boundaries, based on
+  OSM keys on based on other areas name (using `includes`)
+- `disputed`: list areas that are considered "disputed" by MAE
+- `countries`: for each country (based on ISO code), list areas to include/exclude
