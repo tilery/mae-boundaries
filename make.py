@@ -32,6 +32,7 @@ async def get_relation(**tags):
     )
     path = path / file_
     if not path.exists():
+        print(f"Downloading {path}")
         params = {"data": f"[out:json];relation{tags};(._;>;);out body;"}
         try:
             resp = requests.get(OVERPASS, params=params)
@@ -148,7 +149,7 @@ async def process(
     itl_path.parent.mkdir(parents=True, exist_ok=True)
     disputed_path.parent.mkdir(parents=True, exist_ok=True)
     boundaries = []
-    if country:
+    if country is not None:
         boundaries = json.loads(itl_path.read_text())["features"]
         boundaries = [b for b in boundaries if b["properties"].get("iso") != country]
     else:
@@ -170,7 +171,7 @@ async def process(
 
     for properties in countries:
         iso = properties["iso"]
-        if country and iso != country:
+        if country is not None and iso != country:
             continue
         admin_level = int(properties["admin_level"] or 0)
         if not (0 < admin_level < 4):
@@ -197,8 +198,8 @@ async def process(
         print(f"""Export of {disputed_path}\n""")
         json.dump(
             {
-                "type": "FeatureCollection",
-                "features": [areas[n].geojson for n in rules["disputed"]],
+                "type": "GeometryCollection",
+                "geometries": [areas[n].geojson for n in rules["disputed"]],
             },
             f,
             indent=1,
@@ -206,9 +207,19 @@ async def process(
 
 
 @cli
-async def get_area(name):
+async def show_area(name):
     areas = await load_areas()
     print(areas[name].geojson)
+
+
+@cli
+async def show_country(iso, path: Path = Path("exports/boundary.json")):
+    for boundary in json.loads(path.read_text())["features"]:
+        if boundary["properties"].get("iso") == iso:
+            print(json.dumps(boundary))
+            break
+    else:
+        print(f"Cannot find {iso} in countries list")
 
 
 @wrap
