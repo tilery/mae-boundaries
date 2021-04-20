@@ -1,4 +1,4 @@
-asyncpg==0.18.3
+asyncpg==0.21.0
 minicli==0.4.4
 overpy==0.4
 postgis==1.0.4
