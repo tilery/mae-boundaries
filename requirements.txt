@@ -4,4 +4,4 @@ overpy==0.4
 postgis==1.0.4
 pyyaml==5.4
 requests==2.21.0
-ujson==1.35
+ujson==5.4.0
