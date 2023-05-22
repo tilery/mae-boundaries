@@ -3,5 +3,5 @@ minicli==0.4.4
 overpy==0.4
 postgis==1.0.4
 pyyaml==5.4
-requests==2.21.0
+requests==2.31.0
 ujson==1.35
