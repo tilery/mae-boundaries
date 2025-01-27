@@ -1,7 +1,7 @@
-asyncpg==0.21.0
+asyncpg==0.30.0
 minicli==0.4.4
 overpy==0.4
 postgis==1.0.4
-pyyaml==5.4
-requests==2.21.0
+pyyaml==6.0.2
+requests==2.32.3
 ujson==1.35
