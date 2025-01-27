@@ -88,8 +88,8 @@ areas:
     type: boundary
     name: Extent of Nepal Claim
   esh:
-    boundary: disputed
-    name: الصحراء الغربية
+    boundary: administrative
+    ISO3166-1: EH
 disputed:
   - kashmir
   - shipki-la
@@ -101,7 +101,6 @@ disputed:
   - halaib-triangle
   - doklam
   - nepal-claim
-  - esh
 countries:
   BT:
     includes:
