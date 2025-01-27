@@ -111,6 +111,8 @@ countries:
   EG:
     includes:
       - bir-tawil
+    excludes:
+      - halaib-triangle
   IL:
     excludes:
       - golan
@@ -127,6 +129,7 @@ countries:
   SD:
     excludes:
       - bir-tawil
+      - halaib-triangle
   SS:
     excludes:
       - sudan
