@@ -22,6 +22,10 @@ It also provides a list of country and city names.
         createdb mae
         psql mae -c 'CREATE EXTENSION postgis'
 
+- Add land table, so to snap geometries to coastlines:
+
+  make download_coastline import_coastline
+
 - Create python [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/),
   activate it and install python dependencies
 
