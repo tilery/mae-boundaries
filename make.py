@@ -1,7 +1,7 @@
 import csv
+import sys
 from pathlib import Path
 
-import sys
 import asyncpg
 import overpy
 import requests
@@ -38,7 +38,7 @@ async def get_relation(**tags):
             resp = requests.get(OVERPASS, params=params)
             resp.raise_for_status()
         except requests.exceptions.ConnectionError:
-            print(f"\nError: Network problem retrieving data")
+            print("\nError: Network problem retrieving data")
             sys.exit(1)
         except requests.exceptions.HTTPError as err:
             print(f"\nHTTPError: {err}")

@@ -58,6 +58,9 @@ areas:
   halaib-triangle:
     type: boundary
     name: مثلث حلايب‎
+  abiye:
+    boundary: disputed
+    "name:en": Abyei Area
   doklam-admin:
     boundary: administrative
     admin_level: 3
@@ -101,6 +104,7 @@ disputed:
   - halaib-triangle
   - doklam
   - nepal-claim
+  - abiye
 countries:
   BT:
     includes:
@@ -130,9 +134,11 @@ countries:
     excludes:
       - bir-tawil
       - halaib-triangle
+      - abiye
   SS:
     excludes:
       - sudan
+      - abiye
   SY:
     includes:
       - golan
