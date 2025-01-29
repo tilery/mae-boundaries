@@ -61,6 +61,9 @@ areas:
   abiye:
     boundary: disputed
     "name:en": Abyei Area
+  ilemi:
+    boundary: administrative
+    "name:fr": Triangle d'Ilemi
   doklam-admin:
     boundary: administrative
     admin_level: 3
@@ -105,6 +108,7 @@ disputed:
   - doklam
   - nepal-claim
   - abiye
+  - ilemi
 countries:
   BT:
     includes:
@@ -124,6 +128,9 @@ countries:
   IN:
     excludes:
       - nepal-claim
+  KE:
+    excludes:
+      - ilemi
   MA:
     includes:
       - esh
@@ -139,6 +146,7 @@ countries:
     excludes:
       - sudan
       - abiye
+      - ilemi
   SY:
     includes:
       - golan
