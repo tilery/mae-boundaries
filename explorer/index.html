@@ -64,6 +64,7 @@
 
     const map = L.map('map').setView([51.505, 0.09], 5);
     const boundary = L.geoJSON().addTo(map)
+    const disputed = L.geoJSON(null, {style: {color: 'red'}}).addTo(map)
 
     const tiles = L.tileLayer('https://{s}.piano.tiles.quaidorsay.fr/fr{r}/{z}/{x}/{y}.png', {
         maxZoom: 19,
@@ -83,6 +84,10 @@
         parent.appendChild(button)
     }
 
+    fetch("https://nuage.yohanboniface.me/disputed.json").then(async (response) => {
+        const data = await response.json()
+        disputed.addData(data)
+    })
     fetch("https://nuage.yohanboniface.me/boundary.json").then(async (response) => {
         const data = await response.json()
         for (const feature of data.features) {
