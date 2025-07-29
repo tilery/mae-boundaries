@@ -177,23 +177,33 @@ async def process(
         if not (0 < admin_level < 4):
             continue
         polygon = await load_country(admin_level=admin_level, iso=iso)
+        excluded = []
+        included = []
         print(f"{iso} : `{properties['name']}` ({properties['name:en']})")
         if iso in rules["countries"]:
             print(f"| Patching country {iso}")
             for name in rules["countries"][iso].get("excludes", []):
                 print(f" - Removing {name}")
+                excluded.append({"name": name, "geojson": areas[name].geojson})
                 polygon = await remove_area(polygon, areas[name])
             for name in rules["countries"][iso].get("includes", []):
                 print(f" + Adding {name}")
                 polygon = await add_area(polygon, areas[name])
+                included.append({"name": name, "geojson": areas[name].geojson})
         print(f"| Snapping {iso} to coastline")
         border = await snap_to_coastline(polygon)
         boundaries.append(
-            {"type": "Feature", "geometry": border.geojson, "properties": properties}
+            {
+                "type": "Feature",
+                "geometry": border.geojson,
+                "properties": properties,
+                "excluded": excluded,
+                "included": included,
+            }
         )
     with itl_path.open("w") as f:
         print(f"""\nExport of {itl_path}\n""")
-        json.dump({"type": "FeatureCollection", "features": boundaries}, f, indent=1)
+        json.dump({"type": "FeatureCollection", "features": boundaries}, f)
     with disputed_path.open("w") as f:
         print(f"""Export of {disputed_path}\n""")
         json.dump(
@@ -202,7 +212,6 @@ async def process(
                 "geometries": [areas[n].geojson for n in rules["disputed"]],
             },
             f,
-            indent=1,
         )
 
 

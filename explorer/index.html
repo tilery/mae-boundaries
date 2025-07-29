@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Outil d'exploration des frontières MEAE</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            grid-template-areas: "countries map";
+            width: 100vw;
+            height: 100vh;
+        }
+        section.countries {
+            grid-area: countries;
+            height: 100vh;
+            overflow: scroll;
+            border-right: 1px solid black;
+        }
+        .countries ul {
+            padding: 0;
+        }
+        .countries ul li {
+            padding-left: 10px;
+            list-style: none;
+            border-bottom: 1px solid #ddd;
+        }
+        dl {
+            padding-left: 10px;
+        }
+        button {
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+        }
+        section.map { grid-area: map; }
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+
+
+</head>
+<body>
+    <main>
+        <section class="countries"><ul></ul></section>
+        <section class="map"><div id="map"></div></section>
+    </main>
+
+
+
+<script>
+
+    const map = L.map('map').setView([51.505, 0.09], 5);
+    const boundary = L.geoJSON().addTo(map)
+
+    const tiles = L.tileLayer('https://{s}.piano.tiles.quaidorsay.fr/fr{r}/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    const ul = document.querySelector(".countries ul")
+    const viewButton = (parent, geojson, clear, fitBounds) => {
+        const button = document.createElement('button')
+        button.type = "button"
+        button.textContent = "👁"
+        button.addEventListener('click', () => {
+            if (clear) boundary.clearLayers()
+            boundary.addData(geojson)
+            if (fitBounds) map.fitBounds(boundary.getBounds())
+        })
+        parent.appendChild(button)
+    }
+
+    fetch("https://nuage.yohanboniface.me/boundary.json").then(async (response) => {
+        const data = await response.json()
+        for (const feature of data.features) {
+            const li = document.createElement('li')
+            const span = document.createElement('span')
+            const label = feature.properties["name:fr"] ? `${feature.properties["name:fr"]} (${feature.properties["iso3"]})` : feature.properties["name"]
+            span.textContent = label
+            li.appendChild(span)
+            viewButton(span, feature, true, true)
+            if (feature.included?.length) {
+                const dl = document.createElement('dl')
+                li.appendChild(dl)
+                const dt = document.createElement('dt')
+                dt.textContent = 'Zones incluses'
+                dl.appendChild(dt)
+                for (const area of feature.included) {
+                    const dd = document.createElement('dd')
+                    dl.appendChild(dd)
+                    dd.textContent = area.name
+                    viewButton(dd, area.geojson)
+                }
+            }
+            if (feature.excluded?.length) {
+                const dl = document.createElement('dl')
+                li.appendChild(dl)
+                const dt = document.createElement('dt')
+                dt.textContent = 'Zones excluses'
+                dl.appendChild(dt)
+                for (const area of feature.excluded) {
+                    const dd = document.createElement('dd')
+                    dl.appendChild(dd)
+                    dd.textContent = area.name
+                    viewButton(dd, area.geojson)
+                }
+            }
+            ul.appendChild(li)
+        }
+    })
+
+</script>
+
+
+
+</body>
+</html>
