@@ -96,6 +96,21 @@ areas:
   esh:
     boundary: administrative
     ISO3166-1: EH
+  liancourt-rocks:
+    natural: reef
+    "name:fr": Rochers du Liancourt
+  habomai-islands:
+    place: archipelago
+    "name:fr": Îles Habomai
+  kunashir-island:
+    place: island
+    "name:fr": Île Kunashiri
+  iturup-island:
+    place: island
+    "name:fr": Île Etorofu
+  shikotan-island:
+    place: island
+    "name:fr": Île Shikotan
 disputed:
   - kashmir
   - shipki-la
@@ -109,6 +124,11 @@ disputed:
   - nepal-claim
   - abiye
   - ilemi
+  - liancourt-rocks
+  - habomai-islands
+  - shikotan-island
+  - kunashir-island
+  - iturup-island
 countries:
   BT:
     includes:
