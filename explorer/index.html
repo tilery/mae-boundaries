@@ -72,13 +72,16 @@
     }).addTo(map);
 
     const ul = document.querySelector(".countries ul")
-    const viewButton = (parent, geojson, clear, fitBounds) => {
+    const viewButton = (parent, geometry, clear, fitBounds) => {
+        if (!geometry?.coordinates?.length) {
+            return
+        }
         const button = document.createElement('button')
         button.type = "button"
         button.textContent = "👁"
         button.addEventListener('click', () => {
             if (clear) boundary.clearLayers()
-            boundary.addData(geojson)
+            boundary.addData(geometry)
             if (fitBounds) map.fitBounds(boundary.getBounds())
         })
         parent.appendChild(button)
@@ -96,7 +99,7 @@
             const label = feature.properties["name:fr"] ? `${feature.properties["name:fr"]} (${feature.properties["iso3"]})` : feature.properties["name"]
             span.textContent = label
             li.appendChild(span)
-            viewButton(span, feature, true, true)
+            viewButton(span, feature.geometry, true, true)
             if (feature.included?.length) {
                 const dl = document.createElement('dl')
                 li.appendChild(dl)
