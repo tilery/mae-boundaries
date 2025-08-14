@@ -93,7 +93,12 @@
     })
     fetch("https://nuage.yohanboniface.me/boundary.json").then(async (response) => {
         const data = await response.json()
-        for (const feature of data.features) {
+        const sorted = data.features.toSorted((a, b) => {
+            aname = a.properties["name:fr"] || a.properties["name"]
+            bname = b.properties["name:fr"] || b.properties["name"]
+            return aname.localeCompare(bname)
+        })
+        for (const feature of sorted) {
             const li = document.createElement('li')
             const span = document.createElement('span')
             const label = feature.properties["name:fr"] ? `${feature.properties["name:fr"]} (${feature.properties["iso3"]})` : feature.properties["name"]
