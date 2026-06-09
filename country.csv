@@ -1,6 +1,6 @@
 iso,iso3,admin_level,name,name:fr,short_name:fr,name:en,short_name:en,name:ar,name:es,name:de,name:ru,prio,type,latitude,longitude,mae:region,mae:circi_elec,sov,eu,sc
 AD,AND,2,Andorra,Andorre,,Andorra,,أندورا,Andorra,Andorra,Андорра,4,4-PPD,42.5407167,1.5732033,Europe,5,,0,1
-AE,ARE,2,الإمارات العربية المتحدة,Émirats arabes unis,E.A.U,United Arab Emirates,,الإمارات العربية المتحدة,Emiratos Árabes Unidos,Vereinigte Arabische Emirate,Объединённые Арабские Эмир,2,2-PME,24.0002488,53.9994829,Afrique du Nord / Moyen-Orient,10,,0,0
+AE,ARE,2,الإمارات العربية المتحدة,Émirats arabes unis,E.A.U.,United Arab Emirates,,الإمارات العربية المتحدة,Emiratos Árabes Unidos,Vereinigte Arabische Emirate,Объединённые Арабские Эмир,2,2-PME,24.0002488,53.9994829,Afrique du Nord / Moyen-Orient,10,,0,0
 AF,AFG,2,افغانستان,Afghanistan,,Afghanistan,,أفغانستان,Afganistán,Afghanistan,Афганистан,3,3-PMP,33.7680065,66.2385139,Asie,11,,0,0
 AG,ATG,2,Antigua and Barbuda,Antigua-et-Barbuda,,Antigua and Barbuda,,أنتيغوا وبربودا,Antigua y Barbuda,Antigua und Barbuda,Антигуа и Барбуда,99,99-Other,17.343195,-62.0007544,,2,,0,1
 AI,AIA,2,Anguilla,Anguilla,,Anguilla,,أنغويلا,Anguilla,Anguilla,Ангилья,99,99-Other,18.4283324,-63.175872,,3,UK,0,1
@@ -37,7 +37,7 @@ BY,BLR,2,Беларусь,Biélorussie,,Belarus,,روسيا البيضاء,Bielo
 BZ,BLZ,2,Belize,Bélize,,Belize,,بيليز,Belice,Belize,Белиз,99,99-Other,17.1908648,-88.2680289,Amériques,2,,0,1
 CA,CAN,2,Canada,Canada,,Canada,,كندا,Canadá,Kanada,Канада,2,2-PME,61.0666922,-107.9917071,Amériques,1,,0,0
 CC,CCK,4,Cocos Islands,Îles Cocos,,Cocos Islands,,جزر كوكوس,Islas Cocos,Kokosinseln,Кокосовые острова,99,99-Other,-12.1691894,96.8301442,,11,AU,0,0
-CD,COD,2,République démocratique du Congo,République démocratique du Congo,Rép. Dém. Du Congo,Democratic Republic of the Congo,,جمهورية الكونغو الديمقراطية,República Democrática del Congo,Demokratische Republik Kongo,Демократическая Республик,3,3-PMP,-2.9814344,23.8222636,Afrique,10,,0,0
+CD,COD,2,République démocratique du Congo,République démocratique du Congo,Rép. dém. du Congo,Democratic Republic of the Congo,,جمهورية الكونغو الديمقراطية,República Democrática del Congo,Demokratische Republik Kongo,Демократическая Республик,3,3-PMP,-2.9814344,23.8222636,Afrique,10,,0,0
 CF,CAF,2,Centrafrique,République centrafricaine,,Central African Republic,,جمهورية أفريقيا الوسطى,República Centroafricana,Zentralafrikanische Republik,Центрально-Африканская Рес,3,3-PMP,7.0323598,19.9981227,Afrique,10,,0,0
 CG,COG,2,République du Congo,République du Congo,,Republic of Congo,,جمهورية الكونغو,República del Congo,Republik Kongo,Республика Конго,3,3-PMP,-0.7264327,15.6419155,Afrique,10,,0,0
 CH,CHE,2,Schweiz - Suisse - Svizzera - Svizra,Suisse,,Switzerland,,سويسرا,Suiza,Schweiz,Швейцария,3,3-PMP,46.7985624,8.2319736,Europe,6,,0,0
@@ -178,7 +178,7 @@ PL,POL,2,Polska,Pologne,,Poland,,بولونيا,Polonia,Polen,Польша,2,2-P
 PM,SPM,3,Saint-Pierre-et-Miquelon,Saint-Pierre-et-Miquelon,,Saint Pierre and Miquelon,,سان بيير وميكلون,San Pedro y Miquelón,Saint-Pierre und Miquelon,Сен-Пьер и Микелон,99,99-Other,46.8374544,-56.2120555,,,FR,0,1
 PN,PCN,2,Pitcairn Islands,Pitcairn,,Pitcairn Islands,,جزر بيتكيرن,Isla Pitcairn,Pitcairn,Острова Питкэрн,99,99-Other,-24.4981252,-127.7612601,,3,UK,0,1
 PR,PRI,4,Puerto Rico,Porto Rico,,Puerto Rico,,بورتو ريكو,Puerto Rico,Puerto Rico,Пуэрто-Рико,99,99-Other,18.4652990,-66.1166660,Amériques,1,US,0,1
-PS,PSE,2,الأراضي الفلسطينية,Territoires palestiniens,,Palestina,,الأراضي الفلسطينية,Territorios Palestinos,Palästina,палестинской территории,99,99-Other,31.8861384,34.8212339,Afrique du Nord / Moyen-Orient,8,,0,0
+PS,PSE,2,فلسطين ,Palestine,,Palestina,,الأراضي الفلسطينية,Territorios Palestinos,Palästina,палестинской территории,99,99-Other,31.8861384,34.8212339,Afrique du Nord / Moyen-Orient,8,,0,0
 PT,PRT,2,Portugal,Portugal,,Portugal,,البرتغال,Portugal,Portugal,Португалия,3,3-PMP,40.033265,-7.8896263,Europe,5,,1,0
 PW,PLW,2,Belau,Palaos,,Palau,,بالاو,Palos,Palau,Палау,99,99-Other,5.485,132.9200098,Océanie,11,US,0,0
 PY,PRY,2,Paraguay,Paraguay,,Paraguay,,باراغواي,Paraguay,Paraguay,Парагвай,3,4-PPD,-23.3165935,-58.1693445,Amériques,2,,0,0
