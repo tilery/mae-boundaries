@@ -56,14 +56,10 @@ async def get_relation(**tags):
         raise ValueError(f"Cannot find relation for {tags}")
     collection = []
     for member in relation.members:
-        coords = []
-        # Nepal disputed way without outer role:
-        # http://www.openstreetmap.org/way/202061325
-        if member.role != "outer" and member.ref != 202_061_325:
+        if member.role != "outer":
             continue
         way = member.resolve()
-        for node in way.nodes:
-            coords.append((float(node.lon), float(node.lat)))
+        coords = [(float(node.lon), float(node.lat)) for node in way.nodes]
         collection.append(LineString(coords))
     shape = await make_polygon(MultiLineString(collection))
     return shape
