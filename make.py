@@ -1,11 +1,11 @@
 import csv
+import json
 import sys
 from pathlib import Path
 
 import asyncpg
 import overpy
 import requests
-import ujson as json
 import yaml
 from minicli import cli, run, wrap
 from postgis import LineString, MultiLineString
