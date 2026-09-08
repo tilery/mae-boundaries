@@ -132,7 +132,7 @@ Kingston,Kingston,Kingston,كينغستون,ambassade,1,17.97121,-76.79375,JM,ye
 東京,Tokyo,Tokyo,طوكيو,ambassade,1,35.6828378,139.7589667,JP,yes,,
 京都市,Kyoto,Kyoto,كيوتو,consulat_general,4,35.0185804,135.763835,JP,no,,
 عمان‎,Amman,Amman,عمان,ambassade,1,31.9515694,35.9239625,JO,yes,SE,
-,Astana,Astana,آستانا ,ambassade,1,51.128258,71.43055,KZ,yes,,
+Астана,Astana,Astana,آستانا,ambassade,1,51.128258,71.43055,KZ,yes,,
 Алматы,Almaty,Almaty,ألماتي,consulat_general,4,43.2363924,76.9457275,KZ,no,,
 Nairobi,Nairobi,Nairobi,نيروبي,ambassade,1,-1.2832533,36.8172449,KE,yes,,
 Бишкек,Bichkek,Bishkek,بيشكك,ambassade,1,42.8767446,74.6069949,KG,yes,,
@@ -243,14 +243,14 @@ Harare,Hararé,Harare,هراري,ambassade,1,-17.831773,31.045686,ZW,yes,N,Q3921
 ཐིམ་ཕུ,Thimphou,Thimphu,تيمفو,capitale,3,27.47276,89.62861,BT,yes,,Q9270
 Dodoma,Dodoma,Dodoma,دودوما,capitale,3,-6.18330605177,35.7500036201,TZ,yes,NW,Q3866
 Porto-Novo,Porto-Novo,Porto-Novo,بورتو_نوفو,capitale,3,6.48331097302,2.6166255276,BJ,yes,,Q3799
-Naypyidaw,Naypyidaw,Naypyidaw,بورتو نوفو,capitale,3,19.7665570261,96.1186185292,MM,yes,,Q37400
+Naypyidaw,Naypyidaw,Naypyidaw,نايبيداو,capitale,3,19.7665570261,96.1186185292,MM,yes,,Q37400
 Yamoussoukro,Yamoussoukro,Yamoussoukro,ياموسوكرو,capitale,3,6.81838096,-5.2755025649,CI,yes,N,Q3768
 Lilongwe,Lilongwé,Lilongwe,ليلونغوي,capitale,3,-13.9832950655,33.78330196,MW,yes,,Q3876
 Freetown,Freetown,Freetown,فريتاون,antenne_diplomatique,3,8.47001141249,-13.2342157404,SL,yes,,Q1044
 St. John's,Saint John's,St. John's,سانت جونز، أنتيغوا وبربودا,capitale,3,17.1180365183,-61.8500338151,AG,yes,,Q36262
 Georgetown,Georgetown,Georgetown,جورج تاون,ambassade,3,6.80197369275,-58.1670286475,GY,yes,,Q10717
 Sucre,Sucre,Sucre,سوكري,capitale,3,-19.0409708467,-65.2595156267,BO,yes,,Q2907
-Vaiaku,Vaiaku,Vaiaku,فاياكو,capitale,3,-8.51665199904,179.216647094,VU,yes,,Q248201
+Vaiaku,Vaiaku,Vaiaku,فاياكو,capitale,3,-8.51665199904,179.216647094,TV,yes,,Q248201
 Nukuʻalofa,Nuku’alofa,Nuku’alofa,نوكو ألوفا,capitale,3,-21.1385123567,-175.220564478,TO,yes,,Q38834
 Apia,Apia,Apia,أبيا,ambassade,3,-13.8415450424,-171.738641609,WS,yes,,Q36260
 Dili,Dili,Dili,ديلي,capitale,3,-8.55938840855,125.579455932,TL,yes,,Q9310
@@ -271,11 +271,11 @@ Belmopan,Belmopan,Belmopan,بلموبان,capitale,3,17.2520335072,-88.767072999
 Banjul,Banjul,Banjul,بانجول,antenne_diplomatique,3,13.4538764603,-16.5917014892,GM,yes,S,Q3726
 Mitrovicë,Mitrovicë,Mitrovicë,ميتروفيتسا,city,3,42.8852980,20.8673427,XK,no,S,Q178168
 Severna Mitrovica,Severna Mitrovica,Northern Mitrovica,ميتروفيتسا,city,3,42.8963331,20.8657650,XK,no,N,Q42328687
-Melbourne,Melbourne,Melbourne,ملبورن ,consulat_general,4,-37.8180854536963,144.973070375904,AU,no,,
+Melbourne,Melbourne,Melbourne,ملبورن,consulat_general,4,-37.8180854536963,144.973070375904,AU,no,,
 Chennai,Madras,Chennai,مدراس,bureau,4,13.0919336708563,80.2780528789003,IN,no,,
 Firenze,Florence,Florence,فلورنسا,consulat_general,4,43.7800008331993,11.2500003648413,IT,no,,
-الموصل ,Mossoul,Mosul,الموصل ,consulat_general,4,36.3469483193867,43.1430585753664,IQ,no,,
-Monterrey,Monterrey,Monterrey,مونتيري ,consulat_general,4,25.6719409951253,-100.33193064233,MX,no,,
-Nouméa,Nouméa,Nouméa,نوميا ,rp,2,-22.2625277637308,166.444285203131,FR,no,,
-Nuuk,Nuuk,Nuuk,نوك ,consulat_general,2,64.18055556,-51.72166667,DK,no,,
+الموصل,Mossoul,Mosul,الموصل,consulat_general,4,36.3469483193867,43.1430585753664,IQ,no,,
+Monterrey,Monterrey,Monterrey,مونتيري,consulat_general,4,25.6719409951253,-100.33193064233,MX,no,,
+Nouméa,Nouméa,Nouméa,نوميا,rp,2,-22.2625277637308,166.444285203131,FR,no,,
+Nuuk,Nuuk,Nuuk,نوك,consulat_general,2,64.18055556,-51.72166667,DK,no,,
 Ciudad de la Paz,Ciudad de la Paz,Ciudad de la Paz,سيوداد دي لا باز,capitale,2,1.59166667,10.82222222,GQ,yes,,
